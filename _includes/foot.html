@@ -1,0 +1,185 @@
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50120018-1', 'njkeyclub.org');
+        ga('send', 'pageview');
+    </script>
+    <script src="/js/main.js"></script>
+    {% if page.slider %}
+        <script src="/js/vendor/slick/slick.min.js"></script>
+    {% endif %}
+    {% if page.countdown %}
+        <script src="/js/vendor/flipclock/flipclock.min.js"></script>
+        <script type="text/javascript">
+            var date = new Date(2015, 2, 27);
+            var now = new Date();
+            var difference = (date.getTime()/1000) - (now.getTime()/1000);
+            var clock = $('.clock').FlipClock(difference, {
+                clockFace: 'DailyCounter',
+                countdown: true,
+                showSeconds: false
+            });
+        </script>
+    {% endif %}
+    {% if page.calendar %}
+        <script src="/js/vendor/moment/moment.min.js"></script>
+        <script src="/js/vendor/fullcalendar/fullcalendar.min.js"></script>
+        <script src="/js/vendor/fullcalendar/gcal.js"></script>
+        <script>
+            $(function() {
+                $('.calendar').fullCalendar({
+                    header: {
+                        left: false,
+                        center: 'title',
+                        right: 'prev,next today'
+                    },
+                    buttonText: {
+                        today: 'Today'
+                    },
+                    googleCalendarApiKey: 'AIzaSyBJjXfbGUdJ5x8Nqt8f5TLvktIX3k5N4-U',
+                    events: {
+                        googleCalendarId: 'njkeyclubwebmaster@gmail.com'
+                    },
+                    eventClick: function(calEvent, jsEvent, view) {
+                        window.open(calEvent.url, 'Event', 'width=700,height=600');
+                        return false;
+                    }
+                });
+            });
+        </script>
+    {% endif %}
+    {% if page.map %}
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAAk8WPXmdHkKsFHR_TJGZC6t981gu4HgY&sensor=true"></script>
+        <script>
+        $(function() {
+            var map = marker = infoWindow = null;
+            var defaultCenter = [40.151127, -74.6521];
+            var userCenter = [];
+            var markers = [];
+
+            getUserLocation();
+
+            function getUserLocation() {
+                if (window.navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function(position) {
+                        userCenter[0] = position.coords.latitude;
+                        userCenter[1] = position.coords.longitude;
+                        initialize();
+                    }, function() {
+                        initialize();
+                    });
+                }
+            }
+
+            function addMarker(data) {
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(data.position[0], data.position[1]),
+                    title: data.name,
+                    url: data.url
+                });
+
+                markers.push(marker);
+
+                infoWindow = new google.maps.InfoWindow();
+
+                google.maps.event.addListener(marker, 'click', (function(marker) {
+                    return function() {
+                        infoWindow.setContent('<div class="infowindow"><h1>Key Club of ' + marker.title + '</h1><p><a href="' + marker.url + '">View this school on Google Maps!</a></p></div>');
+                        infoWindow.open(map, marker);
+                    }
+                })(marker));
+            }
+
+            function getSchools() {
+                $.getJSON('/schools.json', function(data) {
+                    $.each(data, function(index) {
+                        addMarker(data[index]);
+                    });
+                    return;
+                });
+            }
+
+            function initialize() {
+                var mapOptions = null;
+
+                if (userCenter.length !== 0) {
+                    mapOptions = {
+                        zoom: 14,
+                        center: new google.maps.LatLng(userCenter[0], userCenter[1])
+                    };
+                }
+                else {
+                    mapOptions = {
+                        zoom: 8,
+                        center: new google.maps.LatLng(defaultCenter[0], defaultCenter[1])
+                    };
+                }
+
+                map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+                getSchools();
+            }
+        });
+        </script>
+    {% endif %}
+    {% if page.toc %}
+        <script src="/js/toc.js"></script>
+    {% endif %}
+    {% if page.slider %}
+        {% if page.layout != post %}
+            <script>
+                // This runs on non-post pages.
+                $('.slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    infinite: true,
+                    speed: 400,
+                    arrows: false
+                });
+            </script>
+        {% else %}
+            <script>
+                // This runs on post pages.
+                $('.slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    infinite: true,
+                    dots: true,
+                    arrows: true,
+                    speed: 400,
+                    fade: true,
+                    cssEase: 'linear'
+                });
+            </script>
+        {% endif %}
+    {% endif %}
+    {% if page.comments %}
+        <script>
+            var disqus_shortname = 'njkeyclub';
+
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+        </script>
+        <script type="text/javascript">
+            var disqus_shortname = 'njkeyclub';
+
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+    {% endif %}
+    {% if page.share %}
+        <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534ef45a30bb1b95"></script>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,63 @@
+---
+layout: default
+title: Blog
+class: blog
+---
+
+    <h1 class="title">Blog Posts</h1>
+
+    <form method="post" action="" class="search-form">
+        <label>
+            <input type="text" name="search" class="width-50" placeholder="Search..."  />
+        </label>
+    </form>
+
+    <div class="search-results">
+        <h1>Search Results</h1>
+        <ol></ol>
+    </div>
+
+    {% for category in site.categories %}
+        {% assign words = category | first | replace: '-', ' ' | split: ' ' %}
+        <h2>
+        {% for word in words %}
+            {{ word | capitalize | replace: 'The', 'the' }}
+        {% endfor %}
+        </h2>
+
+        <ul class="posts">
+            {% for posts in category %}
+                {% for post in posts %}
+                    {% if post.url %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+
+    <!--
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li><span>{% assign d = post.date | date: "%-d" %} {{ post.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a> by
+                {% assign authorCount = post.author | size %}
+                {% if authorCount == 1 %}
+                    {% assign first = post.author[0] %}
+                    {% assign author = site.data.board[first] %}
+                    {{ author.display_name }}
+                {% else %}
+                    {% for author in post.author %}
+                        {% assign formattedAuthor = site.data.board[author] %}
+                        {% if forloop.first %}
+                            {{ formattedAuthor.display_name }}
+                        {% elsif forloop.last %}
+                            and {{ formattedAuthor.display_name }}
+                        {% else %}
+                            , {{ formattedAuthor.display_name }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}</li>
+        {% endfor %}
+    </ul>
+    -->

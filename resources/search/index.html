@@ -1,0 +1,23 @@
+---
+layout: default
+title: Search
+class: search
+---
+
+<h1 class="title">Search</h1>
+
+<p>Search the whole website, courtesy of Google Custom Search!</p>
+
+<script>
+  (function() {
+    var cx = '005532435519222604611:tejmyeg26ls';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
