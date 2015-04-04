@@ -1,0 +1,13 @@
+---
+---
+[
+	{% for post in site.posts %}
+    {% assign author = site.data.board[post.author] %}
+	{
+		"title": "{{ post.title | escape }}",
+		"url": "{{ post.url }}",
+		"date": "{{ post.date | date: "%d %B %Y" }}",
+        "authors": "{% assign authorCount = post.author | size %}{% if authorCount == 1 %}{% assign first = post.author[0] %}{% assign author = site.data.board[first] %}{{ author.display_name }}{% else %}{% for author in post.author %}{% assign formattedAuthor = site.data.board[author] %}{% if forloop.first %}{{ formattedAuthor.display_name }}{% elsif forloop.last %} and {{ formattedAuthor.display_name }}{% else %}, {{ formattedAuthor.display_name }}{% endif %}{% endfor %}{% endif %}"
+	}{% if forloop.last %}{% else %},{% endif %}
+	{% endfor %}
+]

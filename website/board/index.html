@@ -1,0 +1,37 @@
+---
+layout: default
+title: Board
+class: board
+---
+
+    <h1 class="title">New Jersey District Board 2014-2015</h1>
+
+    <h2>Executive Members</h2>
+
+    <ul class="executives">
+        {% for person in site.data.board %}
+            {% if person[1].executive == true %}
+                <li>
+                    <a href="./{{ person[0] }}.html"><img src="{{ person[1].image }}" alt="Picture of {{ person[1].display_name }}"></a>
+                    <p class="name"><a href="./{{ person[0] }}.html">{{ person[1].display_name }}</a></p>
+                    <p class="position">{{ person[1].position }}</p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h2>Lieutenant Governors</h2>
+
+    <ul>
+        {% for person in site.data.board %}
+            {% if person[1].executive == null %}
+                <li>
+                    <a href="./{{ person[0] }}.html"><img src="{{ person[1].image }}" alt="Picture of {{ person[1].display_name }}"></a>
+                    <p class="name"><a href="./{{ person[0] }}.html">{{ person[1].display_name }}</a></p>
+                    <p class="position">{{ person[1].position }}</p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+

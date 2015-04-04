@@ -1,0 +1,59 @@
+---
+layout: default
+class: member
+---
+
+{% assign author = site.data.board[page.author] %}
+
+<h1 class="title">{{ author.display_name }}</h1>
+<img src="{{ author.image }}" alt="Picture of {{ author.display_name }}">
+
+{{ content }}
+
+<h1>The Clubs I Manage</h1>
+
+<ul>
+    {% if author.clubs %}
+        {% for club in author.clubs %}
+            <li>{{ club }}</li>
+        {% endfor %}
+    {% else %}
+        <li>Sorry, but I am not a LTG and therefore do not manage any clubs!</li>
+    {% endif %}
+</ul>
+
+<h1>My Blog Posts</h1>
+
+<ul class="posts">
+    {% assign flag = true %}
+    {% for post in site.posts %}
+        {% for author in post.author %}
+            {% if author == page.author %}
+                {% assign flag = false %}
+                <li>
+                    <span>{% assign d = post.date | date: "%-d" %} {{ post.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if flag %}
+        <li>Sorry, but I did not write any blog posts yet! Check back soon!</li>
+    {% endif %}
+</ul>
+
+{% if author.social %}
+<h1>Contact Me</h1>
+
+<ul class="contact">
+{% for link in author.social %}
+    <li>
+        {% if link.name == "Email" %}
+            <a href="{{ link.url }}"><i class="fa fa-envelope"></i>{{ link.name }}</a>
+        {% endif %}
+        {% if link.name == "Phone" %}
+            <a href="tel:+1{{ link.url }}"><i class="fa fa-phone"></i>{{ link.name }}</a>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
+{% endif %}

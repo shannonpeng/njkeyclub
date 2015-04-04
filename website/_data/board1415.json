@@ -1,0 +1,530 @@
+{
+  "sam": {
+    "name": "Sam Levisay",
+    "display_name": "Sam",
+    "position": "District Governor",
+    "executive": true,
+    "image": "/img/board/sam.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:njgovernorlevisay@gmail.com"
+      }
+    ]
+  },
+  "jacqueline": {
+    "name": "Jacqueline Dragon",
+    "display_name": "Jacqueline",
+    "position": "District Secretary",
+    "executive": true,
+    "image": "/img/board/jacqueline.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:njdsecretarydragon@gmail.com"
+      }
+    ]
+  },
+  "daniel": {
+    "name": "Daniel McCormack",
+    "display_name": "Daniel",
+    "position": "District Treasurer",
+    "executive": true,
+    "image": "/img/board/daniel.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:njtreasurermccormack@gmail.com"
+      }
+    ]
+  },
+  "patrick": {
+    "name": "Patrick Quinn",
+    "display_name": "Patrick",
+    "position": "District Editor",
+    "executive": true,
+    "image": "/img/board/patrick.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:njeditorpatquinn@gmail.com"
+      }
+    ]
+  },
+  "srikar": {
+    "name": "Srikar Gudipati",
+    "display_name": "Srikar",
+    "position": "District Webmaster",
+    "executive": true,
+    "image": "/img/board/srikar.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:njwebmastersrikar@gmail.com"
+      }
+    ]
+  },
+  "angela": {
+    "name": "Angela Becker",
+    "display_name": "Angela",
+    "position": "LTG for Division 1",
+    "image": "/img/board/angela.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:angelaltg1@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Cape May County Tech",
+      "Lower Cape May Regional",
+      "Atlantic City",
+      "Middle Township",
+      "Mainland",
+      "Ocean City"
+    ]
+  },
+  "dianna": {
+    "name": "Dianna Torres",
+    "display_name": "Dianna",
+    "position": "LTG for Division 2",
+    "image": "/img/board/dianna.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:dianna.ltg2@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Absegami",
+      "Cedar Creek",
+      "Egg Harbor Township",
+      "Pleasantville",
+      "ACIT"
+    ]
+  },
+  "charmaine": {
+    "name": "Charmaine Chew",
+    "display_name": "Charmaine",
+    "position": "LTG for Division 3",
+    "image": "/img/board/charmaine.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:charmaine.chew.ltg3@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Millville",
+      "Vineland",
+      "Hammonton",
+      "Cumberland Regional",
+      "Pitman",
+      "Woodstown",
+      "St. Augustine Prep"
+    ]
+  },
+  "thomas": {
+    "name": "Thomas Michael",
+    "display_name": "Thomas",
+    "position": "LTG for Division 4",
+    "image": "/img/board/tommy.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:tommichael.ltg.div4@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Winslow",
+      "Clearview",
+      "GCIT",
+      "West Deptford",
+      "Woodbury",
+      "Triton",
+      "Paulsboro",
+      "Gateway"
+    ]
+  },
+  "becca": {
+    "name": "Becca Lordon",
+    "display_name": "Becca",
+    "position": "LTG for Division 5",
+    "image": "/img/board/becca.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:beccaltg@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Burlington Township",
+      "BCIT",
+      "Rancocas Valley",
+      "Eastern",
+      "Haddonfield Memorial",
+      "Cherry Hill"
+    ]
+  },
+  "jeffrey": {
+    "name": "Jeffrey Maziarz",
+    "display_name": "Jeffrey",
+    "position": "LTG for Division 6",
+    "image": "/img/board/jeffrey.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:jmaziarzltg6@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Ewing",
+      "Montgomery",
+      "Nottingham",
+      "Steinert",
+      "Hopewell Valley Central",
+      "Bordentown",
+      "Hamilton-West"
+    ]
+  },
+  "josie": {
+    "name": "Josie Suddeth",
+    "display_name": "Josie",
+    "position": "LTG for Division 7",
+    "image": "/img/board/josie.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:jsuddethltgdiv7@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Central Regional",
+      "Manchester Township",
+      "Monsignor Donovan",
+      "Southern Regional",
+      "Toms River East",
+      "Toms River North",
+      "Toms River South",
+      "MATES"
+    ]
+  },
+  "pearl": {
+    "name": "Pearl Polito",
+    "display_name": "Pearl",
+    "position": "LTG for Division 8",
+    "image": "/img/board/pearl.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:pearlpolitoltg8@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Brick Memorial",
+      "Brick Township",
+      "Pt. Pleasant Beach",
+      "Pt. Pleasant Boro",
+      "Manasquan",
+      "Jackson Liberty",
+      "Jackson Memorial"
+    ]
+  },
+  "tara": {
+    "name": "Tara Engelken",
+    "display_name": "Tara",
+    "position": "LTG for Division 9",
+    "image": "/img/board/tara.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:tengelken.ltg.div9@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Henry Hudson",
+      "High Technology",
+      "MAST",
+      "Middletown North",
+      "Middletown South",
+      "Red Bank Regional",
+      "Rumson-Fair Haven",
+      "Monmouth Regional",
+      "Ocean Township"
+    ]
+  },
+  "brooke": {
+    "name": "Brooke Willemstyn",
+    "display_name": "Brooke",
+    "position": "LTG for Division 10",
+    "image": "/img/board/brooke.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltg.brooke.div.10@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Holmdel",
+      "Keansburg",
+      "Keyport",
+      "Marlboro",
+      "Manalapan",
+      "St. John Vianney",
+      "Matawan Regional",
+      "Raritan"
+    ]
+  },
+  "farwa": {
+    "name": "Farwa Shakeel",
+    "display_name": "Farwa",
+    "position": "LTG for Division 11",
+    "image": "/img/board/farwa.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltg.farwa.shakeel@gmail.com"
+      }
+    ],
+    "clubs": [
+      "East Brunswick",
+      "New Brunswick",
+      "North Brunswick",
+      "Perth Amboy",
+      "Piscataway",
+      "Old Bridge",
+      "Monroe"
+    ]
+  },
+  "devin": {
+    "name": "Devin Sun",
+    "display_name": "Devin",
+    "position": "LTG for Division 12",
+    "image": "/img/board/devin.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:devin.sun.ltg12@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Bernards",
+      "Bridgewater-Raritan",
+      "Franklin Township",
+      "Manville",
+      "Middlesex",
+      "Ridge",
+      "Somerville"
+    ]
+  },
+  "nathaniel": {
+    "name": "Nathaniel Silberman",
+    "display_name": "Nathaniel",
+    "position": "LTG for Division 13",
+    "image": "/img/board/nathaniel.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:natesilbermanltgdiv13@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Delaware Valley Regional",
+      "Hunterdon Central",
+      "North Hunterdon Regional",
+      "Phillipsburg",
+      "Voorhees",
+      "Warren County Vocational Technology",
+      "Warren Hills Regional",
+      "South Hunterdon"
+    ]
+  },
+  "latifa": {
+    "name": "Latifa Ali",
+    "display_name": "Latifa",
+    "position": "LTG for Division 14",
+    "image": "/img/board/latifa.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:latifa.ltgdiv14@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Arthur L. Johnson",
+      "Elizabeth",
+      "JFK Memorial",
+      "Rahway",
+      "Westfield",
+      "JP Stevens",
+      "Edison"
+    ]
+  },
+  "darren": {
+    "name": "Darren Khong",
+    "display_name": "Darren",
+    "position": "LTG for Division 15",
+    "image": "/img/board/darren.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:darren.ltg15@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Chatham",
+      "Columbia",
+      "ECLC",
+      "Jonathan Dayton",
+      "Madison",
+      "Millburn",
+      "Summit",
+      "Union"
+    ]
+  },
+  "david": {
+    "name": "David Guirgis",
+    "display_name": "David",
+    "position": "LTG for Division 16",
+    "image": "/img/board/david.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:davidguirgis.ltg16@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Union City",
+      "Henry Snyder",
+      "A. Harry Moore",
+      "County Prep",
+      "McNair Academic",
+      "Liberty",
+      "Lincoln",
+      "Dickinson"
+    ]
+  },
+  "jae": {
+    "name": "Jae Shin",
+    "display_name": "Jae",
+    "position": "LTG for Division 17",
+    "image": "/img/board/jae.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltgjshin@gmail.com"
+      }
+    ],
+    "clubs": [
+      "ECLC of HoHoKus",
+      "Emerson",
+      "Fort Lee",
+      "Hasbrouck Heights",
+      "North Bergen",
+      "Secaucus",
+      "Tenafly",
+      "High Technology"
+    ]
+  },
+  "ricky": {
+    "name": "Ricky Thompson",
+    "display_name": "Ricky",
+    "position": "LTG for Division 18",
+    "image": "/img/board/ricky.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltgricky@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Belleville",
+      "Bloomfield",
+      "Clifton",
+      "Nutley",
+      "St. Mary's",
+      "Glen Ridge"
+    ]
+  },
+  "bobbie": {
+    "name": "Bobbie Boettinger",
+    "display_name": "Bobbie",
+    "position": "LTG for Division 19",
+    "image": "/img/board/bobbie.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltg19.bobbieboettinger@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Cedar Grove",
+      "James Caldwell",
+      "Livingston",
+      "Mt. St. Dominic",
+      "West Essex"
+    ]
+  },
+  "aleena": {
+    "name": "Aleena Kazmi",
+    "display_name": "Aleena",
+    "position": "LTG for Division 20",
+    "image": "/img/board/aleena.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:aleenakazmi.ltg20@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Montville",
+      "Morristown",
+      "Mountain Lakes",
+      "Parsippany Hills",
+      "Parsippany High",
+      "Morristown Beard"
+    ]
+  },
+  "harsh": {
+    "name": "Harsh Patel",
+    "display_name": "Harsh",
+    "position": "LTG for Division 21",
+    "image": "/img/board/harsh.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:harsh.ltg.div21@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Dover",
+      "Morris Catholic",
+      "Morris County Vocational Technology",
+      "Morris Hills",
+      "Randolph",
+      "Roxbury",
+      "Morris Knolls"
+    ]
+  },
+  "monica": {
+    "name": "Monica Gallagher",
+    "display_name": "Monica",
+    "position": "LTG for Division 22",
+    "image": "/img/board/monica.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:monicaltg22@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Hackettstown",
+      "High Point Regional",
+      "Mt. Olive",
+      "Pope John",
+      "Sparta",
+      "Sussex County Vocational Technology",
+      "Vernon"
+    ]
+  }
+}
