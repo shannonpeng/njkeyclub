@@ -199,6 +199,7 @@ img {
     background-image: url('/img/global/paper.jpg');
     padding: 5%;
     margin-top: 2.5rem;
+    overflow:hidden;
 }
 
 .site-header, .homepage {
