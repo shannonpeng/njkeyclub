@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Thomas Beeby
+title: Tom Beeby
 author: tom
 ---
 
