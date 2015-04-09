@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Devin Sun
 author: devin
 ---

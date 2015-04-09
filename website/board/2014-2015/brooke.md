@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Brooke Willemstyn
 author: brooke
 ---

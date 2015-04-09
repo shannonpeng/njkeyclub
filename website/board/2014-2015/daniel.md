@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Daniel McCormack
 author: daniel
 ---

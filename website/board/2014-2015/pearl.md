@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Pearl Polito
 author: pearl
 ---

@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Srikar Gudipati
 author: srikar
 ---

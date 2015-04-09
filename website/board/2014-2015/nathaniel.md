@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Nathaniel Silberman
 author: nathaniel
 ---

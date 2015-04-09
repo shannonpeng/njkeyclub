@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Patrick Quinn
 author: patrick
 ---

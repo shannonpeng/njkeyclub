@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Latifa Ali
 author: latifa
 ---

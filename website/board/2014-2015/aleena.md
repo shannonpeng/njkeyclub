@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Aleena Kazmi
 author: aleena
 ---

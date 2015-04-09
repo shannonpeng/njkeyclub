@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Sam Levisay
 author: sam
 ---

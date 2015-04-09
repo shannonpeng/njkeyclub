@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Thomas Michael
 author: thomas
 ---

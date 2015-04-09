@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: hasbeen
 title: Ricky Thompson
 author: ricky
 ---
