@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% if page.render != false %}
+
+    <a href="#" class="back-to-top smooth-scroll">Back to Top</a>
+
+    <div class="module post-info">
+        <h1 class="title">{{ page.title }}</h1>
+        <p>Published by {% assign authorCount = page.author | size %}
+        {% if authorCount == 1 %}
+            {% assign first = page.author[0] %}
+            {% assign author = site.data.board1415[first] %}
+            {{ author.display_name }}
+        {% else %}
+            {% for author in page.author %}
+                {% assign formattedAuthor = site.data.board1415[author] %}
+                {% if forloop.first %}
+                    {{ formattedAuthor.display_name }}
+                {% elsif forloop.last %}
+                    and {{ formattedAuthor.display_name }}
+                {% else %}
+                    , {{ formattedAuthor.display_name }}
+                {% endif %}
+            {% endfor %}
+        {% endif %}on
+        {% assign d = page.date | date: "%-d" %}
+        {{ page.date | date: "%B" }}
+        {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+        {{ page.date | date: "%Y" }}<!--{% if page.comments %} with <a class="smooth-scroll" href="{{ post.url }}#disqus_thread"></a>{% endif %}-->.</p>
+    </div>
+
+    {% if page.toc %}
+        <div class="module">
+            <h1>Table of Contents</h1>
+            <div class="toc"></div>
+        </div>
+    {% endif %}
+
+    <div class="post">
+        {{ content }}
+    </div>
+
+    <!--{% if page.comments %}
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <div id="disqus_thread"></div>
+    {% endif %}-->
+
+    {% if page.share %}
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <a class="addthis_button_facebook"></a>
+            <a class="addthis_button_twitter"></a>
+            <a class="addthis_button_google_plusone_share"></a>
+            <a class="addthis_button_pinterest_share"></a>
+            <a class="addthis_button_email"></a>
+        </div>
+    {% endif %}
+
+{% endif %}
