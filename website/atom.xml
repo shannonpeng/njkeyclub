@@ -3,21 +3,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Srikar Gudipati</title>
- <link href="http://srikarg.github.io/atom.xml" rel="self"/>
- <link href="http://srikarg.github.io/"/>
+ <title>New Jersey Key Club</title>
+ <link href="http://njkeyclub.org/atom.xml" rel="self"/>
+ <link href="http://njkeyclub.org/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://srikarg.github.io/</id>
+ <id>http://njkeyclub.org/atom.xml</id>
  <author>
-   <name>Srikar Gudipati</name>
+   <name>New Jersey Key Club</name>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://srikarg.github.com{{ post.url }}"/>
+   <link href="http://njkeyclub.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://srikarg.github.com{{ post.id }}</id>
+   <id>http://njkeyclub.org{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
