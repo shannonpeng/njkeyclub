@@ -648,15 +648,17 @@ img {
     padding: 15%;
     background: #252525;
     color: #fff;
-    line-height: 10px;
     background-image: url('/img/events/rtcs/bg.gif');
     background-size: cover;
 }
 
 .rtcs #feature h1 {
-    padding: 50px 25px;
+    padding: 4% 4%;
     border: 4px #fff solid;
-    font-size: 4em;
+    font-size: 450%;
+    text-transform: lowercase;
+    font-family: 'Century Gothic';
+    font-weight: lighter;
 }
 
 .rtcs #feature p {
@@ -669,18 +671,18 @@ img {
 }
 
 .rtcs #why {
-    background: #c35375;
+    background: #353535;
     color: white;
 }
 
 .rtcs #when {
-    background: #448ab9;
+    background: #dedede;
     text-align: left;
-    color: white !important;
+    color: black !important;
 }
 
 .rtcs #when a {
-    color: white;
+    color: black !important;
 }
 
 .rtcs #when h1 {
@@ -1194,6 +1196,10 @@ ul.slick-dots {
         width: 100%;
         margin-top: 0;
         padding: 10%;
+    }
+
+    .rtcs #feature h1 {
+        font-size: 200%;
     }
 }
 
