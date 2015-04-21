@@ -35,17 +35,8 @@
         clientId: '15f3abeb57f546a1bed92de2eec1f1f7',
         resolution: 'low_resolution',
         limit: 60,
-        sortBy: 'none',
+        sortBy: 'most-recent',
         });
-    var dconFeed = new Instafeed({
-        get: 'tagged',
-        tagName: 'njdcon',
-        clientId: '15f3abeb57f546a1bed92de2eec1f1f7',
-        resolution: 'low_resolution',
-        limit: 60,
-        sortBy: 'none',
-        });
-        // var feeds = [tagFeed, dconFeed];
         tagFeed.run();
     </script>
     {% endif %}
