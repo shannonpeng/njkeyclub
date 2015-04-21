@@ -642,43 +642,69 @@ img {
 *
 */
 
-.rtcs #section1 {
-    background: #9CE9FF;
+.rtcs #feature {
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+    background: #252525;
+    color: #fff;
+    line-height: 10px;
+    background-image: url('/img/events/rtcs/bg.gif');
+    background-size: cover;
 }
 
-.rtcs #section2 {
-    background: #e74c3c;
+.rtcs #feature h1 {
+    padding: 50px 25px;
+    border: 4px #fff solid;
+    font-size: 4em;
+}
+
+.rtcs #feature p {
+    letter-spacing: 5px;
+}
+
+.rtcs #what {
+    background: #252525;
     color: white;
 }
 
-.rtcs #section3 {
-    background: #7BC467;
+.rtcs #why {
+    background: #c35375;
+    color: white;
 }
 
-.rtcs #section4 {
+.rtcs #when {
+    background: #448ab9;
     text-align: left;
+    color: white !important;
 }
 
-.rtcs #section4 h1 {
+.rtcs #when a {
+    color: white;
+}
+
+.rtcs #when h1 {
     text-align: center;
 }
 
-.rtcs #section4 table th {
+.rtcs #when table th {
     font-size: 24px;
     font-size: 2.4rem;
 }
 
-.rtcs #section5 {
+/*
+.rtcs #flyer {
     background: #FDCA52;
 }
 
-.rtcs #section5 .btn {
+.rtcs #flyer .btn {
     background: #5285fd;
 }
 
-.rtcs #section5 .btn a {
+.rtcs #flyer .btn a {
     color: white;
 }
+*/
 
 /*
 *
