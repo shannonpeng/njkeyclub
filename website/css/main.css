@@ -218,6 +218,7 @@ img {
 .logo, .site-nav > ul, .mobile-nav > ul, .wrapper {
     width: 100%;
     margin: auto;
+    position: relative;
 }
 
 .logo {
@@ -657,8 +658,7 @@ img {
     border: 4px #fff solid;
     font-size: 450%;
     text-transform: lowercase;
-    font-family: 'Century Gothic';
-    font-weight: lighter;
+    font-family: 'Century-Gothic', 'Century Gothic', 'MyriadPro-Light', 'Arial', sans-serif;
 }
 
 .rtcs #feature p {
