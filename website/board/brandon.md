@@ -14,4 +14,4 @@ Service has always played a ‘key’ role in my life. It has appealed to me on 
 - Increase attendance at district events such as District Convention (DCON) and Fall Rally by publicizing the events and assisting individual clubs with fundraising while concurrently attempting to elevate quiescent Key Clubbers’ motivation to attend said district events,
 - Let the goals of the New Jersey District in and of itself reflect the needs of Division 10.
 
-It is with my upmost certainty when I say that if we were to achieve these goals, we would indubitably become the best division in the Ney Jersey District. I look forward to meeting the Key Clubs in Division 10, and I hope to make this the best service year we can possibly have.
+It is with my utmost certainty when I say that if we were to achieve these goals, we would indubitably become the best division in the New Jersey District. I look forward to meeting the Key Clubs in Division 10, and I hope to make this the best service year we can possibly have.
