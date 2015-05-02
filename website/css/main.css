@@ -665,13 +665,26 @@ img {
     letter-spacing: 5px;
 }
 
+.rtcs #video {
+    background-color: #202020;
+}
+
+.rtcs #video h1 {
+    color: #ffffff;
+}
+
+.rtcs #video iframe {
+    width: 700px; height: 500px;
+    margin: 0;
+}
+
 .rtcs #what {
-    background: #252525;
+    background: #353535;
     color: white;
 }
 
 .rtcs #why {
-    background: #353535;
+    background: #555555;
     color: white;
 }
 
@@ -707,6 +720,49 @@ img {
     color: white;
 }
 */
+
+
+/*
+*
+* =WEBMASTER 2015 PAGE
+*
+*/
+
+.webmaster15 .section {
+    background: url('/img/events/rtcs/webmaster-bg.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.webmaster15 #section2, .webmaster15 #section5, .webmaster15 #section9, .webmaster15 #section17, .webmaster15 #section20, .webmaster15 #section22 {
+    background-image: none;
+}
+
+.webmaster15 #section2 {
+    background-color: #d22173;
+}
+
+.webmaster15 #section5 {
+    background-color: #e6ab54;
+}
+
+.webmaster15 #section9 {
+    background-color: #e8cd6d;
+}
+
+.webmaster15 #section17 {
+    background-color: #43d684;
+}
+
+.webmaster15 #section20 {
+    background-color: #3366cc;
+}
+
+.webmaster15 #section22 {
+    background-color: #8648c0;
+}
+
 
 /*
 *
@@ -820,28 +876,41 @@ img {
 }
 
 .icon #section1 img {
-    max-width: 450px;
+    max-width: 500px;
+    padding: 20px;
 }
 
 .icon #section2 {
-    background: #9CE9FF;
+    color: white;
+    background: #0d2b51;
 }
 
 .icon #section3 {
-    background: #FFCC38;
+    background: #ffffff;
 }
 
 .icon #section3 ul {
     text-align: left;
 }
 
-.icon #section5 {
-    background: #E74C3C;
-}
-
-.icon #section5 a {
+.icon #section4 {
+    background: #e94b36;
     color: white;
 }
+
+.icon #section5 {
+    background: #0094c8;
+    color: white;
+}
+
+.icon .btn {
+    background: #0d2b51;
+}
+
+.icon .btn a {
+    color: white;
+}
+*/
 
 /*
 *
