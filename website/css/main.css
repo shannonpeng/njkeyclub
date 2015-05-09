@@ -637,6 +637,21 @@ img {
     max-width: 200px;
 }
 
+
+
+/*
+*
+* =UPCOMING EVENTS PAGE
+*
+*/
+
+
+.upcoming-events dt {
+    cursor: pointer;
+}
+
+
+
 /*
 *
 * =RTCS PAGE
