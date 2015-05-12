@@ -125,15 +125,15 @@
       "St. Augustine Prep"
     ]
   },
-  "madison": {
-    "name": "Madison Kennelly",
-    "display_name": "Madison",
+  "juan": {
+    "name": "Juan Carlos Belmonte",
+    "display_name": "Juan",
     "position": "LTG for Division 4",
-    "image": "/img/board/madison.jpg",
+    "image": "/img/board/juan.jpg",
     "social": [
       {
         "name": "Email",
-        "url": "mailto:ltg4.kennelly@gmail.com"
+        "url": "mailto:ltg4.belmonte@gmail.com"
       }
     ],
     "clubs": [
