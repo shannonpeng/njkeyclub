@@ -1,0 +1,119 @@
+{
+  "mccann": {
+    "name": "Kaitlin McCann",
+    "display_name": "Ms. McCann",
+    "position": "District Administrator",
+    "kiwanis": true,
+    "image": "/img/board/josie.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:governor.suddeth@gmail.com"
+      }
+    ]
+  },
+  "mollo": {
+    "name": "Sarah Park",
+    "display_name": "Sarah",
+    "position": "District Secretary",
+    "executive": true,
+    "image": "/img/board/sarahp.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:secretary.separk@gmail.com"
+      }
+    ]
+  },
+  "wilson": {
+    "name": "Bobbie Boettinger",
+    "display_name": "Bobbie",
+    "position": "District Treasurer",
+    "executive": true,
+    "image": "/img/board/bobbie.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:treasurer.boettinger@gmail.com"
+      }
+    ]
+  },
+  "guenther": {
+    "name": "David Guirgis",
+    "display_name": "David",
+    "position": "District Editor",
+    "executive": true,
+    "image": "/img/board/david.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:editor.guirgis@gmail.com"
+      }
+    ]
+  },
+  "acerra": {
+    "name": "Shannon Peng",
+    "display_name": "Shannon",
+    "position": "District Webmaster",
+    "executive": true,
+    "image": "/img/board/shannon.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:webmaster.speng@gmail.com"
+      }
+    ]
+  },
+
+  "meissner": {
+    "name": "Thomas Beeby",
+    "display_name": "Tom",
+    "position": "LTG for Division 1",
+    "image": "/img/board/tom.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:;ltg1.beeby@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Cape May County Tech",
+      "Lower Cape May Regional",
+      "Atlantic City",
+      "Middle Township",
+      "Mainland",
+      "Ocean City"
+    ]
+  },
+  "gandley": {
+    "name": "Kenneth Ye",
+    "display_name": "Kenneth",
+    "position": "LTG for Division 2",
+    "image": "/img/board/kenneth.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltg2.ye@gmail.com"
+      }
+    ],
+    "clubs": [
+      "Absegami",
+      "Cedar Creek",
+      "Egg Harbor Township",
+      "Pleasantville",
+      "ACIT"
+    ]
+  },
+  "orthwein": {
+    "name": "Ariyanna Santiago",
+    "display_name": "Ariyanna",
+    "position": "LTG for Division 3",
+    "image": "/img/board/ariyanna.jpg",
+    "social": [
+      {
+        "name": "Email",
+        "url": "mailto:ltg3.santiago@gmail.com"
+      }
+    ],
+  }
+}
