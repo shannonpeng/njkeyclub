@@ -30,19 +30,9 @@
         "url": "https://www.google.com/maps/place/Ocean+City+High+School/@39.2802942,-74.5683483,17z/data=!3m1!4b1!4m2!3m1!1s0x89c0eac9076ffc71:0x3e36c95cc8e4570c"
     },
     {
-        "name": "Ocean City High School",
-        "position": [39.2802942,-74.5683483],
-        "url": "https://www.google.com/maps/place/Ocean+City+High+School/@39.2802942,-74.5683483,17z/data=!3m1!4b1!4m2!3m1!1s0x89c0eac9076ffc71:0x3e36c95cc8e4570c"
-    },
-    {
         "name": "Absegami High School",
         "position": [39.4808104,-74.5161518],
         "url": "https://www.google.com/maps/place/Absegami+High+School/@39.4808104,-74.5161518,17z/data=!3m1!4b1!4m2!3m1!1s0x89c0e691f296ca3f:0x3b1f87fe628e04d9"
-    },
-    {
-        "name": "Atlantic Christian",
-        "position": [39.3596137,-74.6356349],
-        "url": "https://www.google.com/maps/place/Atlantic+Christian+School/@39.3596137,-74.6356349,17z/data=!3m1!4b1!4m2!3m1!1s0x89c0c183b7b945e9:0xa4268422d473b6b7"
     },
     {
         "name": "Cedar Creek High School",
@@ -73,11 +63,6 @@
         "name": "Vineland High School",
         "position": [39.4787308,-74.9720013],
         "url": "https://www.google.com/maps/search/Vineland+High+School+North,+East+Chestnut+Avenue,+Vineland,+NJ/@39.4787308,-74.9720013,17z/data=!3m1!4b1"
-    },
-    {
-        "name": "Clayton High School",
-        "position": [39.6633535,-75.0846942],
-        "url": "https://www.google.com/maps/place/Clayton+High+School/@39.6633535,-75.0846942,17z/data=!3m1!4b1!4m2!3m1!1s0x89c729e085424f29:0xe9a39bd6377e6d8"
     },
     {
         "name": "Hammonton High School",
@@ -125,11 +110,6 @@
         "url": "https://www.google.com/maps/place/Triton+Regional+High+School/@39.8503915,-75.0629495,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6ce75eb602281:0xb2cb041d9f96dcd0"
     },
     {
-        "name": "Triton Regional High School",
-        "position": [39.8503915,-75.0629495],
-        "url": "https://www.google.com/maps/place/Triton+Regional+High+School/@39.8503915,-75.0629495,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6ce75eb602281:0xb2cb041d9f96dcd0"
-    },
-    {
         "name": "Burlington Township High School",
         "position": [40.0646533,-74.8374134],
         "url": "https://www.google.com/maps/place/Burlington+Township+High+School/@40.0646533,-74.8374134,17z/data=!3m1!4b1!4m2!3m1!1s0x89c14ee50d6b6213:0xed3ae6c65c36fa3d"
@@ -165,11 +145,6 @@
         "url": "https://www.google.com/maps/place/Ewing+High+School/@40.2541304,-74.7907544,17z/data=!3m1!4b1!4m2!3m1!1s0x89c157f23eb8187d:0xd3521474ceba975b"
     },
     {
-        "name": "Montgomery Township High School",
-        "position": [40.4177802,-74.7051339],
-        "url": "https://www.google.com/maps/place/Montgomery+Township+High+School/@40.4177802,-74.7051339,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3e8ba19439ced:0xa62addcaca9e7069"
-    },
-    {
         "name": "Nottingham High School",
         "position": [40.2288212,-74.710175],
         "url": "https://www.google.com/maps/place/Nottingham+High+School/@40.2288212,-74.710175,18z/data=!3m1!4b1!4m2!3m1!1s0x89c158c2cb2dca07:0xb05acc2e8c386119"
@@ -200,7 +175,7 @@
         "url": "https://www.google.com/maps/place/Manchester+Township+High+School/@40.0048089,-74.3095986,17z/data=!3m1!4b1!4m2!3m1!1s0x89c176d513ffc91f:0x616d5a13bd4a29f6"
     },
     {
-        "name": "Monsignor Donovan High School",
+        "name": "Donovan Catholic High School",
         "position": [39.9604227,-74.1886209],
         "url": "https://www.google.com/maps/place/Monsignor+Donovan+High+School/@39.9604227,-74.1886209,17z/data=!3m1!4b1!4m2!3m1!1s0x89c19dc383a1c439:0x751d30344bba55e9"
     },
@@ -218,11 +193,6 @@
         "name": "Toms River North High School",
         "position": [39.982525,-74.1945706],
         "url": "https://www.google.com/maps/place/Toms+River+North+High+School/@39.982525,-74.1945706,18z/data=!3m1!4b1!4m2!3m1!1s0x89c19d98962610dd:0xbb1b59c36f6fa8f6"
-    },
-    {
-        "name": "Toms River South High School",
-        "position": [39.9559855,-74.1950471],
-        "url": "https://www.google.com/maps/place/Toms+River+High+School+South/@39.9559855,-74.1950471,17z/data=!3m1!4b1!4m2!3m1!1s0x89c19de76f94f47b:0x92bfbe2777b99cba"
     },
     {
         "name": "Mates High School",
@@ -263,11 +233,6 @@
         "name": "Ocean Township High School",
         "position": [40.2675779,-74.0312352],
         "url": "https://www.google.com/maps/place/Ocean+Township+High+School/@40.2675779,-74.0312352,17z/data=!3m1!4b1!4m2!3m1!1s0x89c22f603dc23687:0x10e48a39e3e0ac92"
-    },
-    {
-        "name": "Wall Township High School",
-        "position": [40.1680439,-74.0611752],
-        "url": "https://www.google.com/maps/place/Wall+Township+High+School/@40.1680439,-74.0611752,17z/data=!3m1!4b1!4m2!3m1!1s0x89c18789ee76e19d:0xbc393b36478402ef"
     },
     {
         "name": "Henry Hudson High School",
@@ -323,11 +288,6 @@
         "name": "Marlboro High School",
         "position": [40.3287979,-74.2464209],
         "url": "https://www.google.com/maps/place/Marlboro+High+School/@40.3287979,-74.2464209,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3d2e93f227f9b:0x2933de70050e22e7"
-    },
-    {
-        "name": "Manalapan High School",
-        "position": [40.2907648,-74.3363439],
-        "url": "https://www.google.com/maps/place/Manalapan+High+School/@40.2907648,-74.3363439,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3d14ab3c1226f:0xbf018afbc1285e0b"
     },
     {
         "name": "SJV High School",
@@ -608,11 +568,6 @@
         "name": "Glen Ridge High School",
         "position": [40.799408,-74.2057685],
         "url": "https://www.google.com/maps/place/Glen+Ridge+High+School/@40.799408,-74.2057685,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25530843a7837:0x4d2f98cd2635415a"
-    },
-    {
-        "name": "Cedar Grove High School",
-        "position": [40.8518704,-74.2242347],
-        "url": "https://www.google.com/maps/place/Cedar+Grove+High+School/@40.8518704,-74.2242347,17z/data=!3m1!4b1!4m2!3m1!1s0x89c30023c83302d7:0x2424f82622196f1b"
     },
     {
         "name": "James Caldwell High School",

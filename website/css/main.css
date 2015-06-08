@@ -531,14 +531,12 @@ img {
 .district-project #section1 {
     padding: 100px 20px;
     padding: 10rem 2rem;
-    background: url('/img/about/district-project/map-bg.png') no-repeat;
+    background: url('/img/about/district-project/diamondbg.png') no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .district-project #section2 {
-    background: #eeeeee;
-    color: white;
 }
 
 .district-project #section2 img {
@@ -548,9 +546,10 @@ img {
 .district-project #section3 {
     padding: 150px 20px;
     padding: 15rem 2rem;
-    background: url('/img/about/district-project/baby-bg.png') no-repeat;
+    background: url('/img/about/district-project/volunteers.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 .district-project #section4 h1 {
