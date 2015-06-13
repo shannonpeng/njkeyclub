@@ -15,3 +15,15 @@ home: true
 <div id="instafeed">
 </div>
 
+<script type="text/javascript">
+
+	setInterval(function() {
+		var a = Math.floor(Math.random() * 34) + 1;
+		$("#instafeed a:nth-child(" + a + ") img").css("opacity", "1");
+		$("#instafeed a:nth-child(" + a + ") img").css("webkit-filter", "none");
+		$("#instafeed a:nth-child(" + a + ") img").css("filter", "none");
+
+	}, 1500);
+	
+</script>
+
