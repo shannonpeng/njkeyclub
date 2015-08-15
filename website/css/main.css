@@ -652,34 +652,40 @@ img {
 
 /*
 *
-* =KEY LEADER PAGE
+* =MEDIUM STYLE PAGES
 *
 */
 
-#feature {
+.medium .feature {
     width: 100%;
     height: 400px;
-    background-image: url('/img/events/key-leader/cover.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     color: white;
 }
 
-#feature h1 {
+.medium .feature.key-leader {
+    background-image: url('/img/events/key-leader/cover.jpg');
+}
+
+.medium .feature.kfamily-picnic {
+    background-image: url('/img/events/kfamily-picnic/cover.jpg');
+}
+
+.medium .feature h1 {
     font-size: 400%;
 }
 
-#feature p {
+.medium .feature p {
     margin: 0;
     line-height: 150%;
 }
 
-#about {
+.medium .about {
     background-color: #ededed;
     padding: 50px 150px 50px 150px;
 }
-
 
 
 /*
