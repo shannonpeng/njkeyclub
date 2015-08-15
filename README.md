@@ -1,2 +1,2 @@
 # njkeyclub
-The current official website of the NJ District of Key Club International.
+The official website of the NJ District of Key Club International.
