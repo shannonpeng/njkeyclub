@@ -1,3 +1,4 @@
 .DS_Store
 website/_site/*
 wp/*
+wp/
