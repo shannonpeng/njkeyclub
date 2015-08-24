@@ -12,16 +12,16 @@
       }
     ]
   },
-  "sarahp": {
-    "name": "Sarah Park",
-    "display_name": "Sarah",
+  "farwa": {
+    "name": "Farwa Shakeel",
+    "display_name": "Farwa",
     "position": "District Secretary",
     "executive": true,
-    "image": "/img/board/sarahp.jpg",
+    "image": "/img/board/farwa.jpg",
     "social": [
       {
         "name": "Email",
-        "url": "mailto:secretary.separk@gmail.com"
+        "url": "mailto:secretary.shakeel@gmail.com"
       }
     ]
   },
@@ -79,7 +79,6 @@
     "clubs": [
       "Cape May County Tech",
       "Lower Cape May Regional",
-      "Atlantic City",
       "Middle Township",
       "Mainland",
       "Ocean City"
@@ -98,6 +97,7 @@
     ],
     "clubs": [
       "Absegami",
+      "Atlantic City",
       "Cedar Creek",
       "Egg Harbor Township",
       "Pleasantville",
@@ -180,7 +180,6 @@
     ],
     "clubs": [
       "Ewing",
-      "Montgomery",
       "Nottingham",
       "Steinert",
       "Hopewell Valley Central",
@@ -289,6 +288,7 @@
     ],
     "clubs": [
       "East Brunswick",
+      "Highland Park",
       "New Brunswick",
       "North Brunswick",
       "Perth Amboy",
@@ -420,11 +420,11 @@
       "ECLC of HoHoKus",
       "Emerson",
       "Fort Lee",
-      "Hasbrouck Heights",
       "North Bergen",
       "Secaucus",
       "Tenafly",
-      "High Technology"
+      "High Technology",
+      "Bergen County Academies"
     ]
   },
   "josh": {
@@ -459,9 +459,9 @@
       }
     ],
     "clubs": [
-      "Cedar Grove",
       "James Caldwell",
       "Livingston",
+      "Montclair",
       "Mt. St. Dominic",
       "West Essex"
     ]
@@ -522,10 +522,10 @@
       "Hackettstown",
       "High Point Regional",
       "Mt. Olive",
-      "Pope John",
+      "Pope John XXIII",
       "Sparta",
       "Sussex County Technical",
-      "Vernon"
+      "Vernon Township"
     ]
   }
 }

@@ -688,5 +688,76 @@
         "name": "Vernon High School",
         "position": [41.2468575,-74.489311],
         "url": "https://www.google.com/maps/place/Vernon+Township+High+School/@41.2468575,-74.489311,16z/data=!3m1!4b1!4m2!3m1!1s0x89c33c1b9e969a51:0xc30cbb4c68c1b855"
+    },
+
+    {
+        "name": "Woodstown High School",
+        "position": [39.650527, -75.321375],
+        "url": "https://www.google.com/maps/place/Woodstown+High+School/@39.6502548,-75.3213266,17z/data=!3m1!4b1!4m2!3m1!1s0x89c721c96ee03b5d:0x864b1b152acc3d7a"
+    },  
+    {
+        "name": "St. Augustine Preparatory School",
+        "position": [39.500212, -74.874717],
+        "url": "https://www.google.com/maps/place/St.+Augustine+Preparatory+School/@39.5000217,-74.8747765,17z/data=!3m1!4b1!4m2!3m1!1s0x89c0d18a8a0d55e7:0xa23069bcfc82a2"
+    },  
+    {
+        "name": "Gateway Regional High School",
+        "position": [39.817540, -75.140222],
+        "url": "https://www.google.com/maps/search/gateway/@39.5000217,-74.8747765,12z/data=!3m1!4b1"
+    },  
+    {
+        "name": "Steinert High School",
+        "position": [40.216850, -74.664223],
+        "url": "https://www.google.com/maps/place/Steinert+High+School/@40.2167103,-74.6641958,17z/data=!3m1!4b1!4m2!3m1!1s0x89c15f1f11e1bdff:0x2a7169c638861aa0"
+    },  
+    {
+        "name": "Bordentown Regional High School",
+        "position": [40.154294, -74.684753],
+        "url": "https://www.google.com/maps/place/Bordentown+Regional+High+School+Campus/@40.1540723,-74.6848011,17z/data=!3m1!4b1!4m2!3m1!1s0x89c15c750ad7318b:0x4dc879d110b83eaa"
+    },  
+    {
+        "name": "Hamilton High School West",
+        "position": [40.198596, -74.722739],
+        "url": "https://www.google.com/maps/place/Hamilton+High+School+West/@40.1983744,-74.7227333,17z/data=!3m1!4b1!4m2!3m1!1s0x89c159726023b5bf:0xab2f2e95e1b636fe"
+    },  
+    {
+        "name": "Rumson-Fair Haven Regional High School",
+        "position": [40.369440, -74.001911],
+        "url": "https://www.google.com/maps/place/Rumson-Fair+Haven+Regional+High+School/@40.369244,-74.0019059,17z/data=!3m1!4b1!4m2!3m1!1s0x89c23a5c8fec3bb1:0xfbbd737b3ea34acb"
+    },  
+    {
+        "name": "Raritan High School",
+        "position": [40.427456, -74.150940],
+        "url": "https://www.google.com/maps/place/Raritan+High+School/@40.4272521,-74.1509244,17z/data=!3m1!4b1!4m2!3m1!1s0x89c23475cf887cfb:0x94538225d12bdc64"
+    },  
+    {
+        "name": "Monroe Township High School",
+        "position": [40.823499, -74.212990],
+        "url": "https://www.google.com/maps/place/Monroe+Township+High+School/@40.3275056,-74.4361925,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3da4767366015:0x4e670c2a8d915dbd"
+    },  
+    {
+        "name": "Montclair High School",
+        "position": [40.823499, -74.212990],
+        "url": "https://www.google.com/maps/place/Montclair+High+School/@40.823288,-74.2129739,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25556992b8e57:0x6bf2255712ce615b"
+    },  
+    {
+        "name": "South Hunterdon Regional High School",
+        "position": [40.387441, -74.890334],
+        "url": "https://www.google.com/maps/place/Southt+Hunterdon+Regional+High+School/@40.3872857,-74.8903823,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3f96bcf151f9d:0x168b7809cde00e38"
+    },  
+    {
+        "name": "Columbia High School",
+        "position": [40.736191, -74.264818],
+        "url": "https://www.google.com/maps/place/Columbia+High+School/@40.7359874,-74.2648128,17z/data=!3m1!4b1!4m2!3m1!1s0x89c3ac8aa812260b:0x62e7ca6e9024e49c"
+    },  
+    {
+        "name": "Union City High School",
+        "position": [40.770314, -74.036294],
+        "url": "https://www.google.com/maps/place/Union+City+High+School/@40.7702088,-74.0362885,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25789e77bd8fb:0xc594126948d95a5"
+    },  
+    {
+        "name": "High Tech High School",
+        "position": [40.810294, -74.014644],
+        "url": "https://www.google.com/maps/place/High+Tech+High+School/@40.8101643,-74.0146919,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2f7ef68b7b8ff:0xaaf5511ae8d2a7ea"
     }
 ]
