@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "100% CMRF Award Infor"
+title: "100% CMRF Award Information"
 author: farwa
 comments: true
 share: true
@@ -19,6 +19,6 @@ It is bittersweet to say that we are almost halfway through the service year. Ho
 
 - All CMRFs for the service year must be sent in by November 10th, including the October CMRF which is due on the same day. 
 
-- Please send any missing CMRFs to [njkeyclubcmrf@gmail.com](mailto:njkeyclubcmrf@gmail.com). 
+- Please send any missing CMRFs to [njkeyclubcmrf@gmail.com](mailto:njkeyclubcmrf@gmail.com).
 
 Overall, the 100% CMRF Award is very easy to earn. If you have any questions, please contact myself or Secretary Farwa at [secretary.shakeel@gmail.com](mailto:secretary.shakeel@gmail.com).
