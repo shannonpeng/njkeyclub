@@ -212,7 +212,7 @@ header h2 {
 
 .contests header {
 	height: 500px;
-	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/tito.png') no-repeat;
+	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/tito.jpg') no-repeat;
 	background-size: cover;
 }
 
