@@ -162,9 +162,9 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
   transition: all 0.2s ease-out;
 }
 
-/* HOME */
+/* HEADER */
 
-.home header {
+header {
 	height: 100%;
 	color: white;
 	background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('../img/map.jpg') no-repeat;
@@ -172,12 +172,12 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
 	display: flex;
 }
 
-.home header .content {
+header .content {
 	max-width: 800px;
 	margin: auto;
 }
 
-.home header h2 {
+header h2 {
 	font-weight: normal;
 }
 
@@ -208,6 +208,30 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
   transition: all 0.2s ease-out;
 }
 
+
+
+/* CONTESTS PAGE */
+
+.contests header {
+	height: 500px;
+	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/lobby.jpg') no-repeat;
+	background-size: cover;
+}
+
+.contests .section ul {
+	font-size: 1.5em;
+	list-style-type: upper-roman;
+	margin: auto;
+}
+
+.contests .wrapper {
+	margin: auto;
+}
+
+.contests p {
+	font-size: 1.25em;
+}
+
 /* LIVE PAGE */
 
 .live header {
@@ -215,22 +239,23 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
 	background: linear-gradient(45deg, rgba(150, 150, 200, 1), rgba(0, 100, 230, 1));
 	color: white;
 	display: flex;
-	letter-spacing: 30px;
+	letter-spacing: 20px;
 }
 
 .live header .content {
+	max-width: 100%;
 	margin: auto;
 	text-align: center;
 }
 
 .live header h1 {
-	font-size: 6em;
+	font-size: 5em;
 	margin: auto;
 }
 
 .live header h2 {
 	font-weight: normal;
-	font-size: 4em;
+	font-size: 3em;
 	margin: auto;
 }
 
