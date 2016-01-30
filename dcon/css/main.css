@@ -1,39 +1,202 @@
+/* GLOBAL */
+
 @font-face {
 	font-family: 'Avenir';
 	src: url('../fonts/Avenir-Light.ttf') format('truetype');
 }
 
-
 html, body {
 	width: 100%;
 	height: 100%;
 	padding: 0;
-	background-color: black;
-	color: white;
+	margin: 0;
+	background-color: #eeeeee;
 	font-family: 'Avenir';
-	letter-spacing: 5px;
 	overflow-x: hidden;
-	font-size: 1em;
 }
 
+p {
+	font-size: 1.5em;
+}
 
-header {
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* NAVBAR */
+
+nav {
 	width: 100%;
-	height: 100%;
-	padding: 20%;
-	background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../img/nyc.jpg') no-repeat;
-	background-size: cover;
-	text-transform: uppercase;
+	background: rgba(10, 10, 10, 0.9);
+	color: white;
+	padding: 10px;
+	position: absolute;
+	top: 0;
 }
 
-header h1, header h3 {
+nav ul {
+	list-style-type: none;
+	margin: auto;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 5px 15px;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+nav li a {
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgba(256, 256, 256, 0.1);
+	opacity: 0.8;
+}
+
+nav li a:hover {
+	border-bottom: 2px solid rgba(256, 256, 256, 1);
+	opacity: 1;
+}
+
+nav li:nth-child(2) a {
+	border-bottom: none;
+}
+
+nav li.logo {
+	display: none;
+}
+
+nav li.logo img {
+	max-height: 25px;
+}
+
+nav li.logo:hover {
+	cursor: pointer;
+}
+
+nav li.live a {
+	border: none;
+	width: 100%;
+	background-color: rgba(54, 136, 255, 0.8);
+	padding: 5px 15px;
+}
+
+nav li.live:hover {
+	cursor: pointer;
+}
+
+nav li.live:hover a {
+	background-color: rgba(47, 118, 220, 1);
+}
+
+nav .social {
+	padding: 0;
+}
+
+nav .social a, nav .social a:hover {
+	border: none;
+}
+
+
+nav li a, nav li a:hover, nav li.live, nav li.live:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* SECTIONS */
+
+.section {
+	padding: 50px 0px;
+	-webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.section h1 {
+	text-align: center;
+	padding: 25px 0px;
+}
+
+.section .content {
+	max-width: 50%;
+	margin: auto;
+}
+
+
+/* HOME */
+
+.home header {
+	height: 100%;
+	color: white;
+	background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('../img/map.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+}
+
+.home header .content {
+	max-width: 800px;
+	margin: auto;
+}
+
+.home header h2 {
 	font-weight: normal;
 }
 
-header h2 {
-	font-size: 0.75em;
+/* SCROLL ARROW */
+
+.scroll-arrow {
+	max-width: 80px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -100px;
+	margin: 0 auto;
+	z-index: 1;
+	opacity: 0;
 }
 
-.typed-cursor {
-	display: none;
+.scroll-arrow img {
+	max-width: 80px;
+}
+
+/* CURSOR */
+
+.typed-cursor{
+    display: none;
+}
+
+/* TEXT STYLING */
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.expand {
+	letter-spacing: 5px;
+}
+
+/* MOBILE STYLES */
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    padding: 0px 20px;
+  }
+  nav li {
+    display: none;
+  }
+  nav li.logo {
+  	display: block;
+  }
+  .home header .content {
+  	max-width: 100%;
+  	padding: 0px 20px;
+  }
+  .section {
+  	padding: 0;
+  }
+  .section .content {
+  	max-width: 100%;
+  	padding: 25px;
+  }
 }
