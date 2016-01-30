@@ -7,9 +7,6 @@ class: home
 <script>
 $(window).load(function() {
 	$(".scroll-arrow").animate({"bottom": "+=110px", "opacity": "+=0.8"}, 500);
-	$(".scroll-arrow a").click(function(event){
-		event.preventDefault();
-	});
 	$("header h1").typed({
 		strings: ["Dear Agent of Service,<br>You have been invited to attend", "The 70th Annual New Jersey Key Club District Convention:<br>License to Serve"],
 		typeSpeed: 5
@@ -21,6 +18,18 @@ $(window).load(function() {
 });
 $("body").scroll(function() {
 	$(".scroll-arrow").fadeOut(500);
+});
+$('.scroll-arrow a').click(function (e) {
+    e.preventDefault();
+    var target = this.hash;
+    var $target = $(target);
+    console.log("hello")
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top + 100
+    }, 900, 'swing', function () {
+        window.location.hash = target;
+    });
 });
 </script>
 

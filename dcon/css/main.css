@@ -148,7 +148,7 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
 	border-radius: 5px;
 	color: white;
 	text-align: center;
-	margin: auto;
+	margin: 10px auto;
 	background-color: rgba(47, 118, 220, 0.8);
 }
 
@@ -208,28 +208,49 @@ header h2 {
   transition: all 0.2s ease-out;
 }
 
-
-
 /* CONTESTS PAGE */
 
 .contests header {
+	height: 500px;
+	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/tito.png') no-repeat;
+	background-size: cover;
+}
+
+.contests .section ul.table-of-contents {
+	font-size: 1.5em;
+	list-style-type: upper-roman;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+/* REGISTRATION PAGE */
+
+.registration header {
 	height: 500px;
 	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/lobby.jpg') no-repeat;
 	background-size: cover;
 }
 
-.contests .section ul {
-	font-size: 1.5em;
-	list-style-type: upper-roman;
-	margin: auto;
+/* GEAR PAGE */
+
+.gear header {
+	height: 500px;
+	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/video-call.jpg') no-repeat;
+	background-size: cover;
 }
 
-.contests .wrapper {
-	margin: auto;
+.gear .image {
+	max-height: 500px;
+	display: inline-block;
 }
 
-.contests p {
-	font-size: 1.25em;
+.gear .image img {
+	max-height: 500px;
+}
+
+.gear .button {
+	display: inline-block;
+	margin: 10px;
 }
 
 /* LIVE PAGE */
