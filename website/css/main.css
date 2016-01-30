@@ -1253,6 +1253,28 @@ ul.slick-dots {
     margin-bottom: 4rem;
 }
 
+/* HOME PAGE */
+
+.homepage .dcon-ad {
+    height: 150px;
+    padding: 50px;
+    background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('http://dcon.njkeyclub.org/img/map.jpg') no-repeat;
+    background-size: cover;
+}   
+
+.homepage .dcon-ad:hover {
+    cursor: pointer;
+}
+
+.homepage .dcon-ad h1 {
+    text-align: center;
+    color: white;
+}
+
+.homepage .dcon-ad > a:hover {
+    text-decoration: none;
+}
+
 /*
 *
 * =INSTAFEED
