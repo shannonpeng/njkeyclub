@@ -1,0 +1,1379 @@
+/*
+*
+* =GLOBALS
+*
+*/
+
+@font-face {
+    font-family: "MyriadPro-Light";
+    src: url('/fonts/MyriadPro-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url('/fonts/MyriadPro-Bold.otf') format('truetype');
+}
+
+/*@font-face {
+font-family: "MyriadPro-Regular";
+src: url('/fonts/MyriadPro-Regular.otf') format('truetype');
+}*/
+
+@font-face {
+    font-family: "HarryPotter";
+    src: url('/fonts/HarryPotter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Century-Gothic";
+    src: url('/fonts/Gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Century-Gothic-Bold";
+    src: url('/fonts/Gothic-Bold.ttf') format('truetype');
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('/img/global/bokeh.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #222;
+    font: 1.8px/1.618 "Century-Gothic";
+    font: 1.8rem/1.618 "Century-Gothic";
+}
+
+strong {
+    font-family: "Century-Gothic-Bold";
+}
+
+p {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #252525;
+    text-decoration: underline;
+}
+
+.btn {
+    height: 100%;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: "Century-Gothic";
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+blockquote {
+    font-size: 30px;
+    font-size: 3rem;
+    margin-left: 0;
+    border-left: 5px solid #004579;
+    padding-left: 20px;
+    padding-left: 2rem;
+}
+
+blockquote p {
+    margin: 0;
+    font-style: italic;
+}
+
+blockquote p:before {
+    content: "\201c";
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 48px;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+}
+
+blockquote p:after {
+    content: "\201d";
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 48px;
+    margin-left: -5px;
+    margin-left: -0.5rem;
+}
+
+blockquote .author {
+    font-style: normal;
+    display: block;
+}
+
+blockquote .author:before {
+    content: "- ";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, form, blockquote, .embed-container {
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+
+hr {
+    margin: 20px 0;
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "MyriadPro-Light";
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+
+.title {
+    font-size: 60px;
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 32px;
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+ul, ol {
+    margin-left: 40px;
+    margin-left: 4rem;
+}
+
+i.fa {
+    margin-right: 5px;
+    margin-right: 0.5rem;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-image: url('/img/global/paper.jpg');
+    padding: 5%;
+    margin-top: 2.5rem;
+    overflow:hidden;
+}
+
+.site-header, .homepage {
+    background: #fff;
+}
+
+.homepage {
+    overflow: hidden;
+    height: 100%;
+}
+
+.site-header ul {
+    margin-left: 0;
+}
+
+.logo, .site-nav > ul, .mobile-nav > ul, .wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    padding: 20px;
+    padding: 2rem;
+}
+
+.logo img {
+    max-width: 150px;
+    margin: auto;
+}
+
+
+
+.module {
+    background: transparent;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    padding: 40px;
+    padding: 4rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.module p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+*
+* =NAVIGATION
+*
+*/
+
+.mobile-nav ul, .site-nav ul {
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-transform: lowercase;
+    list-style: none;
+}
+
+.mobile-nav {
+    background: transparent;
+}
+
+.mobile-nav li {
+    display: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.mobile-nav .menu-icon {
+    display: block;
+    text-align: center;
+}
+
+.mobile-nav li:hover {
+    background: #eeeeee;
+}
+
+.mobile-nav li:hover .dropdown {
+    background: transparent;
+}
+
+.mobile-nav a {
+    display: block;
+    padding: 20px;
+    padding: 2rem;
+    color: #222;
+    text-decoration: none;
+}
+
+.mobile-nav .dropdown a {
+    padding: 20px 20px 20px 60px;
+}
+
+.mobile-nav .dropdown li {
+    white-space: nowrap;
+}
+
+.mobile-nav .dropdown li:hover {
+    background: #FFF;
+    position: relative;
+}
+
+.mobile-nav .dropdown li:hover:before {
+    content: "\f105";
+    position: absolute;
+    font-family: FontAwesome;
+    bottom: 34%;
+    left: 50px;
+    left: 5rem;
+}
+
+.site-nav {
+    background: transparent;
+    display: none;
+    text-align: center;
+}
+
+.site-nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.site-nav > ul > li:hover {
+    background: #eeeeee;
+}
+
+.site-nav > ul > li:hover .dropdown {
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.site-nav a {
+    display: block;
+    padding: 20px;
+    padding: 2rem;
+    color: #222;
+    text-decoration: none;
+}
+
+.site-nav .dropdown {
+    min-width: 120%;
+    text-align: left;
+    background: #eeeeee;
+    /*-webkit-border-radius: 0 0 5px 5px;
+    /-moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;*/
+    position: absolute;
+    left: -5000px;
+    left: -500rem;
+    opacity: 0;
+    z-index: 100;
+    list-style: none;
+}
+
+.site-nav .dropdown li {
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-left: 1rem;
+}
+
+.site-nav .dropdown li:hover {
+    background: #FFF;
+    position: relative;
+}
+
+.site-nav .dropdown li:hover::before {
+    content: "\f105";
+    position: absolute;
+    font-family: FontAwesome;
+    bottom: 28%;
+    left: 10px;
+    left: 1rem;
+}
+
+.site-nav .dropdown a {
+    padding: 10px;
+    padding: 1rem;
+}
+
+/*
+*
+* =CONTENT
+*
+*/
+
+.blog, .kci-international p, .major-emphasis p, .advocacy p, .service-partners p, .kiwanis-family p, .for-parents p, .quotes p, .quotes ul {
+    font-size: 26px;
+    font-size: 2.6rem;
+    font-family: "MyriadPro-Light";
+}
+
+/*
+*
+* =SLIDES LAYOUT
+*
+*/
+
+.wrapper.slides {
+    max-width: none;
+    padding: 0;
+    font-family: "MyriadPro-Light";
+}
+
+.section {
+    width: 100%;
+    padding: 80px 20px;
+    padding: 8rem 2rem;
+    text-align: center;
+}
+
+.section article {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.section h1 {
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+
+.section .title {
+    font-size: 60px;
+    font-size: 6rem;
+}
+
+.section p, .section ul {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+.section ul {
+    text-align: left;
+}
+
+.slides {
+    background: #fff;
+}
+
+/*
+*
+* =JERSEY KEY PAGE
+*
+*/
+
+.jersey-key #section1 {
+    text-align: left;
+    background: url('/img/news/jersey-key/title.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jersey-key #section1 article {
+    margin: 130px auto 0 auto;
+    margin: 13rem auto 0 auto;
+}
+
+.jersey-key #section2 {
+    background: url('/img/news/jersey-key/wood.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jersey-key #section3 {
+    text-align: left;
+}
+
+.jersey-key #section3 a {
+    display: block;
+}
+
+.jersey-key img {
+    max-width: 300px;
+}
+
+/*
+*
+* =NEW JERSEY DISTRICT PAGE
+*
+*/
+
+.nj-district #section1 {
+    color: white;
+    text-align: left;
+    background: url('/img/about/nj-district/tomato-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nj-district #section2 {
+    background: url('/img/about/nj-district/nj-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nj-district #section3 {
+    color: white;
+    background: url('/img/about/nj-district/board-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nj-district #section4 {
+    text-align: left;
+}
+
+.nj-district #section4 p {
+    margin: 10px 0;
+}
+
+/*
+*
+* =DISTRICT PROJECT PAGE
+*
+*/
+
+.district-project #section1 {
+    padding: 100px 20px;
+    padding: 10rem 2rem;
+    background: url('/img/about/district-project/diamondbg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.district-project #section2 {
+}
+
+.district-project #section2 img {
+    max-width: 400px;
+}
+
+.district-project #section3 {
+    padding: 150px 20px;
+    padding: 15rem 2rem;
+    background: url('/img/about/district-project/volunteers.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.district-project #section4 h1 {
+    font-family: "MyriadPro-Bold";
+    font-weight: bold;
+    line-height: 1;
+    font-size: 70px;
+    font-size: 7rem;
+    color: #C41230;
+    text-transform: uppercase;
+}
+
+.district-project #section5 {
+    padding: 100px 20px;
+    padding: 10rem 2rem;
+    background: #F58025;
+    color: white;
+}
+
+.district-project #section5 p {
+    margin: 0;
+}
+
+.district-project #section5 h2 {
+    font-family: "MyriadPro-Bold";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: 45px;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.district-project #section5 h1 {
+    font-family: "MyriadPro-Regular";
+    font-size: 120px;
+    font-size: 12rem;
+    color: white;
+    font-weight: 300;
+}
+
+.district-project #section6 {
+    text-align: left;
+}
+
+.district-project #section6 ul {
+    font-size: 32px;
+    font-size: 3.2rem;
+}
+
+.district-project #section6 .number {
+    font-weight: bold;
+}
+
+/*
+*
+* =MAJOR EMPHASIS PAGE
+*
+*/
+
+.major-emphasis img {
+    max-width: 670px;
+    margin: 40px auto;
+    margin: 4rem auto;
+}
+
+/*
+*
+* =SERVICE PARTNERS PAGE
+*
+*/
+
+.service-partners img {
+    max-width: 60%;
+}
+
+/*
+*
+* =ADVOCACY PAGE
+*
+*/
+
+.advocacy img {
+    max-width: 200px;
+}
+
+
+
+/*
+*
+* =UPCOMING EVENTS PAGE
+*
+*/
+
+
+.upcoming-events dt {
+    cursor: pointer;
+}
+
+
+/*
+*
+* =MEDIUM STYLE PAGES
+*
+*/
+
+.medium .feature {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.medium .feature.key-leader {
+    background-image: url('/img/events/key-leader/cover.jpg');
+}
+
+.medium .feature.kfamily-picnic {
+    background-image: url('/img/events/kfamily-picnic/cover.jpg');
+}
+
+.medium .feature h1 {
+    font-size: 400%;
+}
+
+.medium .feature p {
+    margin: 0;
+    line-height: 150%;
+}
+
+.medium .about {
+    background-color: #ededed;
+    padding: 50px 150px 50px 150px;
+}
+
+
+/*
+*
+* =RTCS PAGE
+*
+*/
+
+.rtcs #feature {
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+    background: #252525;
+    color: #fff;
+    background-image: url('/img/events/rtcs/bg.gif');
+    background-size: cover;
+}
+
+.rtcs #feature h1 {
+    padding: 4% 4%;
+    border: 4px #fff solid;
+    font-size: 450%;
+    text-transform: lowercase;
+    font-family: 'Century-Gothic', 'Century Gothic', 'MyriadPro-Light', 'Arial', sans-serif;
+}
+
+.rtcs #feature p {
+    letter-spacing: 5px;
+}
+
+.rtcs #video {
+    background-color: #202020;
+}
+
+.rtcs #video h1 {
+    color: #ffffff;
+}
+
+.rtcs #video iframe {
+    width: 700px; height: 500px;
+    margin: 0;
+}
+
+.rtcs #what {
+    background: #353535;
+    color: white;
+}
+
+.rtcs #why {
+    background: #555555;
+    color: white;
+}
+
+.rtcs #when {
+    background: #dedede;
+    text-align: left;
+    color: black !important;
+}
+
+.rtcs #when a {
+    color: black !important;
+}
+
+.rtcs #when h1 {
+    text-align: center;
+}
+
+.rtcs #when table th {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+/*
+.rtcs #flyer {
+    background: #FDCA52;
+}
+
+.rtcs #flyer .btn {
+    background: #5285fd;
+}
+
+.rtcs #flyer .btn a {
+    color: white;
+}
+*/
+
+
+/*
+*
+* =WEBMASTER 2015 PAGE
+*
+*/
+
+.webmaster15 .section {
+    background: url('/img/events/rtcs/webmaster-bg.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.webmaster15 #section2, .webmaster15 #section5, .webmaster15 #section9, .webmaster15 #section17, .webmaster15 #section20, .webmaster15 #section22 {
+    background-image: none;
+}
+
+.webmaster15 #section2 {
+    background-color: #d22173;
+}
+
+.webmaster15 #section5 {
+    background-color: #e6ab54;
+}
+
+.webmaster15 #section9 {
+    background-color: #e8cd6d;
+}
+
+.webmaster15 #section17 {
+    background-color: #43d684;
+}
+
+.webmaster15 #section20 {
+    background-color: #3366cc;
+}
+
+.webmaster15 #section22 {
+    background-color: #8648c0;
+}
+
+
+/*
+*
+* =FALL RALLY PAGE
+*
+*/
+
+.fall-rally #section1 {
+    background: #C51230;
+    color: white;
+}
+
+.fall-rally #section2 .btn {
+    background: #5285fd;
+}
+
+.fall-rally #section2 .btn a {
+    color: white;
+}
+
+.fall-rally #section3 {
+    background: #FFFF33;
+}
+
+.fall-rally #section4 {
+    background: #FFE1AD;
+}
+
+.fall-rally #section5 {
+    background: #B1C8EB;
+}
+
+.fall-rally #section5 img {
+    max-width: 100px;
+}
+
+.fall-rally #section6 {
+    background: #231F20;
+    color: white;
+}
+
+/*
+*
+*
+* =DCON PAGE
+*
+*/
+
+.dcon h1, .dcon h2, .dcon h3, .dcon h4 {
+    font-family: "HarryPotter";
+}
+
+.dcon .title {
+    font-size: 80px;
+    font-size: 8rem;
+}
+
+.clock {
+    margin: 50px auto !important;
+    margin: 5rem auto !important;
+    width: 50%;
+}
+
+.dcon #section1 {
+    background: #222;
+    color: #BB032D;
+}
+
+.dcon #section1 img {
+    max-width: 300px;
+}
+
+.dcon #section2 .btn {
+    background: #BB032D;
+}
+
+.dcon #section2 .btn a {
+    color: white;
+}
+
+.dcon #section3 {
+    background: #205775;
+    color: white;
+}
+
+.dcon #section4 {
+    background: #f36412;
+    color: white;
+}
+
+.dcon #section4 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.dcon #section5 {
+    background: #229955;
+    color: white;
+}
+
+/*
+*
+*
+* =ICON PAGE
+*
+*/
+
+.icon #section1 p {
+    margin-top: 10px;
+    margin-top: 1rem;
+}
+
+.icon #section1 img {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.icon #section2 {
+    color: white;
+    background: #0d2b51;
+}
+
+.icon #section3 {
+    background: #ffffff;
+}
+
+.icon #section3 ul {
+    text-align: left;
+}
+
+.icon #section4 {
+    background: #e94b36;
+    color: white;
+}
+
+.icon #section5 {
+    background: #0094c8;
+    color: white;
+}
+
+.icon .btn {
+    background: #0d2b51;
+}
+
+.icon .btn a {
+    color: white;
+}
+*/
+
+/*
+*
+* =DISTRICT RESOURCES
+*
+*/
+
+.accordion dt {
+    cursor: pointer;
+}
+
+.accordion dd {
+    display: none;
+    margin-left: 20px;
+    margin-left: 2rem;
+}
+
+.district-resources .accordion ul {
+    list-style: none;
+    margin: 0;
+}
+
+.district-resources .accordion ul li {
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+
+/*
+*
+* =DISTRICT MAP PAGE
+*
+*/
+
+.district-map #map {
+    height: 600px;
+}
+
+.district-map #map img {
+    max-width: none;
+}
+
+.district-map .infowindow {
+    height: 150px;
+    padding: 20px;
+    padding: 2rem;
+}
+
+.district-map .infowindow h1 {
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.district-map .infowindow p {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/*
+*
+* =SEARCH
+*
+*/
+
+.search-form input {
+    font-family: "MyriadPro-Light";
+    font-size: 20px;
+    font-size: 2rem;
+    border: 1px solid #004579;
+}
+
+.search-form input:focus {
+    outline: none;
+    border-color: #004579;
+    box-shadow: none;
+}
+
+.search-results {
+    display: none;
+    margin-bottom: 100px;
+    margin-bottom: 10rem;
+}
+
+.board-search .search-results img {
+    max-width: 200px;
+    margin: 0;
+}
+
+.search .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    text-shadow: none;
+    color: white;
+}
+
+.search .gsc-control-cse {
+    padding: 0;
+    border: none;
+}
+
+.search .gsc-search-box {
+    padding: 0;
+}
+
+.search .gsc-search-box td.gsc-input {
+    padding: 0;
+}
+
+/*
+*
+* =POSTS
+*
+*/
+
+.post ul li, .post ol li {
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.post ul li:last-child, .post ol li:last-child {
+    margin-bottom: 0;
+}
+
+.post-info p {
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    bottom: 2rem;
+    right: 20px;
+    right: 2rem;
+    background: transparent;
+    color: #222;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: 1.8rem;
+    padding: 8px;
+    padding: 0.8rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.top:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+#disqus_thread {
+    margin-top: 60px;
+    margin-top: 6rem;
+}
+
+.addthis_toolbox {
+    width: 180px;
+    margin: 20px auto;
+    margin: 2rem auto;
+}
+
+.addthis_toolbox a:hover {
+    background: none;
+}
+
+/*
+*
+* =SLIDER
+*
+*/
+
+ul.slick-dots {
+    margin-left: 0;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,.embed-container object,.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+/*
+*
+* =BOARD PAGE
+*
+*/
+
+.board {
+    text-align: center;
+}
+
+.board ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.board ul li:first-child {
+    padding-top: 0;
+}
+
+.board ul li {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.board ul li a {
+    display: block;
+}
+
+.board ul li img {
+    max-width: 200px;
+}
+
+.board ul li p {
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.board ul li .name {
+    font-weight: bold;
+}
+
+/*
+*
+* =MEMBER PAGES
+*
+*/
+
+.member .title {
+    text-align: center;
+}
+
+.member img {
+    max-width: 200px;
+}
+
+.member ul li, .member ol li {
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.member ul li:last-child, .member ol li:last-child {
+    margin-bottom: 0;
+}
+
+.member .contact {
+    font-size: 24px;
+    font-size: 2.4rem;
+    list-style: none;
+    margin-left: 0;
+}
+
+.member .contact a:hover {
+    text-decoration: none;
+}
+
+/*
+*
+* =QUOTES PAGE
+*
+*/
+
+.quotes ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.quotes ul li {
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+
+/* HOME PAGE */
+
+.homepage .dcon-ad {
+    height: 150px;
+    padding: 50px;
+    background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('http://dcon.njkeyclub.org/img/map.jpg') no-repeat;
+    background-size: cover;
+}   
+
+.homepage .dcon-ad:hover {
+    cursor: pointer;
+}
+
+.homepage .dcon-ad h1 {
+    text-align: center;
+    color: white;
+}
+
+.homepage .dcon-ad > a:hover {
+    text-decoration: none;
+}
+
+/*
+*
+* =INSTAFEED
+*
+*/
+
+#instafeed img {
+    width: 16.6%;
+    display: inline-block;
+    margin: 0; padding: 0;
+    opacity: 0.8;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#greyscale);
+    filter: gray;
+}
+
+#instafeed img:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-filter: none;
+    filter: none;
+}
+
+
+/*
+*
+* =MEDIA QUERIES
+*
+*/
+
+@media (max-width: 705px) {
+    .district-project #section5 h1 {
+        font-size: 50px;
+        font-size: 5rem;
+    }
+
+    .district-project #section5 h2 {
+        font-size: 30px;
+        font-size: 3rem;
+    }
+
+    .section .title {
+        font-size: 45px;
+        font-size: 4.5rem;
+    }
+
+    .title {
+        font-size: 45px;
+        font-size: 4.5rem;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 0;
+        padding: 10%;
+    }
+
+    .rtcs #feature h1 {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 641px) {
+    .board ul li {
+        display: inline-block;
+        width: 19%;
+        vertical-align: top;
+        padding-right: 20px;
+        padding-right: 2rem;
+    }
+
+    .board ul li:first-child {
+        padding-top: 20px;
+        padding-top: 2rem;
+    }
+
+    .board {
+        text-align: left;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 968px) {
+    .site-nav {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+}

@@ -1,0 +1,145 @@
+/*
+*
+* =SEUSSICAL FALL RALLY (2015)
+*
+*/
+
+@font-face {
+    font-family: "MyriadPro-Light";
+    src: url('/fonts/MyriadPro-Light.otf') format('truetype');
+}
+
+html, body {
+    width: 100%; height: 100%;
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: 'MyriadPro-Light';
+    font-size: 150%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../img/header.gif');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Lilita One';
+    margin: auto;
+    font-size: 200%;
+    text-align: center;
+    font-weight: normal;
+}
+
+.header .content {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.header .content img {
+    max-width: 500px;
+}
+
+#section1 {
+    background: #EA6454;
+}
+
+#section2 {
+    background: #EB7E55;
+}
+
+#section3 {
+    background: #ECB956;
+    text-align: center;
+}
+
+#section4 {
+    background: #5DD341;
+}
+
+#section5 {
+    background: #4F65E5;
+}
+
+#section6 {
+    background: white;
+    color: #202020;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 100px;
+}
+
+.trees {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    background: transparent url('../img/trees.png') bottom;
+    background-size: cover;
+}
+
+.trees img {
+    width: 100%;
+    margin: 0;
+}
+
+.arrow {
+    width: 50px;
+    position: absolute;
+    bottom: 40px;
+    margin: auto; left: 0; right: 0;
+    z-index: 100;
+}
+
+.arrow img {
+    width: 50px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 10px;
+    max-width: 400px;
+    border: 1px solid #202020;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.button a {
+    color: #202020;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #202020;
+}
+
+.button:hover a {
+    color: white;
+}
+
+.button, .button:hover {
+    -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; transition: all 0.1s ease-out;
+}
+
+
