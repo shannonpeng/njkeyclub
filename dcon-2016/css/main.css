@@ -144,7 +144,7 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
 
 .button {
 	padding: 20px;
-	max-width: 200px;
+	max-width: 250px;
 	border-radius: 5px;
 	color: white;
 	text-align: center;
@@ -296,6 +296,14 @@ header h2 {
 	letter-spacing: 5px;
 }
 
+
+/* IFRAME */
+
+#about iframe {
+	width: 700px;
+	height: 393px;
+	margin: 10px;
+}
 /* MOBILE STYLES */
 
 @media screen and (max-width: 900px) {
@@ -319,6 +327,7 @@ header h2 {
   .home header .content {
   	max-width: 100%;
   	padding: 0px 20px;
+  	font-size: 0.75em;
   }
   .live header {
   	font-size: 0.5em;
@@ -329,5 +338,9 @@ header h2 {
   .section .content {
   	max-width: 100%;
   	padding: 25px;
+  }
+  #about iframe {
+  	width: 300px;
+  	height: 168px;
   }
 }
