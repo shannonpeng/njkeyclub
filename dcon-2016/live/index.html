@@ -1,14 +1,84 @@
----
-layout: default
-title: Live
-class: live
----
+<html>
+<head>
+	<title>Live | NJ DCON 2016</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="live.css"/>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
+</head>
 
-<header>
+<body ng-app="app">
+
+	<nav>
+	<ul>
+		<li class="logo"><img src="/img/logo.png"></li>
+		<li class="uppercase expand"><a href="/">DCON 2016</a></li>
+		<li><a href="/">home</li>
+		<li><a href="/contests">contests</li>
+		<li><a href="/registration">registration</li>
+		<!--<li><a href="/photos">photos</a></li>-->
+		<li><a href="/gear">gear</a></li>
+		<li class="live"><a href="/live">live</a></li>
+		<li class="social">
+			<ul>
+				<li><a href="//www.facebook.com/events/1526953967598862/"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="//twitter.com/njkeyclub"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="//instagram.com/njkeyclub"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</li>
+	</ul>
+	</nav>
+
+	<header>
 	<div class="content">
-		<h1 class="uppercase expanded">Coming Soon</h1>
-		<h2 class="uppercase expanded">DCON 2016 Live</h2>
+		<h1 class="uppercase expand page-title">welcome to #njdcon070</h1>
 	</div>
-</header>
+	</header>
 
+	<div class="main" ng-controller="MainController">
+		<div class="col-md-6" id="remind">
+			<h1 class="uppercase expand">messages from hq</h1>
+<!--center><p class="uppercase expand">text @njdcon2016 to 81010</p></center-->		</div>
+		<div class="col-md-6" id="feed">
+			<h1 class="uppercase expand">agent chat</h1>
+		</div>
+		<div class="col-md-4" id="stream">
+			<h1 class="uppercase expand">livestream</h1>
+		</div>
+		<div class="col-md-4" id="spirit">
+			<h1 class="uppercase expand">spirit stick poll</h1>
+		</div>
+		<div class="col-md-4" id="schedule">
+			<h1 class="uppercase expand">schedule</h1>
+			<h3 class="uppercase expand">friday, april 1st</h3>
+			<div class="event" ng-repeat="event in friday">
+				<div class="time">{{ event.time}}</div>
+				<div class="title">{{ event.title }}</div>
+				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+			</div>
+			<h3 class="uppercase expand">saturday, april 2nd</h3>
+			<div class="event active" ng-repeat="event in saturday">
+				<div class="time">{{ event.time}}</div>
+				<div class="title">{{ event.title }}</div>
+				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+			</div>
+			<h3 class="uppercase expand">sunday, april 3rd</h3>
+			<div class="event" ng-repeat="event in sunday">
+				<div class="time">{{ event.time}}</div>
+				<div class="title">{{ event.title }}</div>
+				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- Modules -->
+    <script src="app.js"></script>
+    <!-- Controllers-->
+    <script src="MainController.js"></script>
+</body>
+</html>

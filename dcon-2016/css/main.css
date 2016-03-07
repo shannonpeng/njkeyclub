@@ -10,9 +10,10 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background-color: #eeeeee;
+	background-color: #efefef;
 	font-family: 'Avenir';
 	overflow-x: hidden;
+	font-size: 1em;
 }
 
 p {
@@ -31,6 +32,12 @@ p a {
 p a:hover {
 	color: rgba(47, 118, 220, 1);
 }
+
+a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
 /* NAVBAR */
 
 nav {
@@ -40,6 +47,7 @@ nav {
 	padding: 10px;
 	position: absolute;
 	top: 0;
+	z-index: 100;
 }
 
 nav ul {
@@ -166,19 +174,22 @@ nav li a, nav li a:hover, nav li.live, nav li.live:hover {
 
 header {
 	height: 100%;
-	color: white;
-	background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('../img/map.jpg') no-repeat;
-	background-size: cover;
 	display: flex;
 }
 
 header .content {
 	max-width: 800px;
 	margin: auto;
+	color: white;
 }
 
 header h2 {
 	font-weight: normal;
+}
+
+.home header {
+	background: linear-gradient(45deg, rgba(0, 50, 100, 0.3), rgba(0, 50, 100, 0.8)), url('../img/map.jpg') no-repeat;
+	background-size: cover;
 }
 
 /* SCROLL ARROW */
@@ -253,33 +264,6 @@ header h2 {
 	margin: 10px;
 }
 
-/* LIVE PAGE */
-
-.live header {
-	height: 100%;
-	background: linear-gradient(45deg, rgba(150, 150, 200, 1), rgba(0, 100, 230, 1));
-	color: white;
-	display: flex;
-	letter-spacing: 20px;
-}
-
-.live header .content {
-	max-width: 100%;
-	margin: auto;
-	text-align: center;
-}
-
-.live header h1 {
-	font-size: 5em;
-	margin: auto;
-}
-
-.live header h2 {
-	font-weight: normal;
-	font-size: 3em;
-	margin: auto;
-}
-
 /* CURSOR */
 
 .typed-cursor{
@@ -329,7 +313,7 @@ header h2 {
   	padding: 0px 20px;
   	font-size: 0.75em;
   }
-  .live header {
+  .live {
   	font-size: 0.5em;
   }
   .section {

@@ -1,0 +1,68 @@
+body {
+
+}
+
+h1 {
+	text-align: center;
+}
+
+header {
+	height: 300px;
+	padding-top: 50px;
+	display: flex;
+	background: linear-gradient(45deg, rgba(150, 150, 200, 0.3), rgba(0, 100, 230, 0.8)), url('../img/binary.jpg');
+}
+
+header .content {
+	max-width: 800px;
+	margin: auto;
+	color: white;
+}
+
+header h1 {
+	font-weight: bold;
+}
+
+.main > div {
+	padding: 20px;
+}
+
+.main div h1 {
+	font-size: 1.25em;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.main div h3, .main div p {
+	font-size: 1em;
+}
+
+#schedule ul {
+	list-style-type: none;
+}
+
+#schedule div {
+	margin: 0;
+	padding: 2px;
+}
+
+#schedule .event {
+	margin: 10px;
+}
+
+#schedule .event .title {
+}
+
+#schedule .event .time {
+	float: right;
+}
+
+#schedule .event .location {
+	color: #509ced;
+	font-size: 0.8em;
+}
+
+#schedule .event.active {
+	font-weight: bold;
+	font-size: 1.2em;
+}
