@@ -3,6 +3,7 @@
 	<title>Live | NJ DCON 2016</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="live.css"/>
     <link rel="shortcut icon" href="img/favicon.png"/>
@@ -41,37 +42,56 @@
 	</header>
 
 	<div class="main" ng-controller="MainController">
-		<div class="col-md-6" id="remind">
-			<h1 class="uppercase expand">messages from hq</h1>
-<!--center><p class="uppercase expand">text @njdcon2016 to 81010</p></center-->		</div>
-		<div class="col-md-6" id="feed">
-			<h1 class="uppercase expand">agent chat</h1>
-		</div>
+
 		<div class="col-md-4" id="stream">
 			<h1 class="uppercase expand">livestream</h1>
+			<div>
+				<iframe width="345" height="193" src="https://www.youtube.com/embed/jBSHhFcRNM4" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
-		<div class="col-md-4" id="spirit">
+
+		<div class="col-md-4" id="feed">
+			<h1 class="uppercase expand">#njdcon070</h1>
+		</div>
+
+		<div class="col-md-4" id="resources">
+			<h1 class="uppercase expand">resources</h1>
+			<div class="content">
+			<h2><b><a href="http://goo.gl/forms/yneA8dCNfp"><i class="fa fa-link"></i>&nbsp;Workshops Survey</a></b></h2><p>Click the link above to fill out the DCON 2016 Workshops Survey!</p>
+			<h2><b>Remind</b></h2><p> To subscribe to Remind updates throughout the weekend, text <b>@njdcon2016</b> to <b>81010</b>!</p>
+			</div>
+		</div>
+		
+		
+		<div class="col-md-6" id="spirit">
 			<h1 class="uppercase expand">spirit stick poll</h1>
+			<center><p>Click on a division to vote. You may vote once per page load.<br><i>Poll refreshes every 30 seconds.</i></p></center>
+			<div class="results">
+				<div ng-repeat="division in poll" onclick="vote(this)" id="poll-{{division.number}}"><b><h3 style="font-size:1.25em;margin:2px">Division {{ division.number }}</h3></b><span style="opacity: 0.75">&nbsp;{{ division.votes }} votes</span></div>
+			</div>
 		</div>
-		<div class="col-md-4" id="schedule">
+		
+		<div class="col-md-6" id="schedule">
 			<h1 class="uppercase expand">schedule</h1>
-			<h3 class="uppercase expand">friday, april 1st</h3>
-			<div class="event" ng-repeat="event in friday">
-				<div class="time">{{ event.time}}</div>
-				<div class="title">{{ event.title }}</div>
-				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
-			</div>
-			<h3 class="uppercase expand">saturday, april 2nd</h3>
-			<div class="event active" ng-repeat="event in saturday">
-				<div class="time">{{ event.time}}</div>
-				<div class="title">{{ event.title }}</div>
-				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
-			</div>
-			<h3 class="uppercase expand">sunday, april 3rd</h3>
-			<div class="event" ng-repeat="event in sunday">
-				<div class="time">{{ event.time}}</div>
-				<div class="title">{{ event.title }}</div>
-				<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+			<div class="content">
+				<h3 class="uppercase expand">friday, april 1st</h3>
+				<div class="event" ng-repeat="event in friday">
+					<div class="time">{{ event.time}}</div>
+					<div class="title">{{ event.title }}</div>
+					<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+				</div>
+				<h3 class="uppercase expand">saturday, april 2nd</h3>
+				<div class="event" ng-repeat="event in saturday">
+					<div class="time">{{ event.time}}</div>
+					<div class="title">{{ event.title }}</div>
+					<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+				</div>
+				<h3 class="uppercase expand">sunday, april 3rd</h3>
+				<div class="event" ng-repeat="event in sunday">
+					<div class="time">{{ event.time}}</div>
+					<div class="title">{{ event.title }}</div>
+					<div ng-if="event.location.length > 0" class="location">{{ event.location }}</div>
+				</div>
 			</div>
 		</div>
 	</div>

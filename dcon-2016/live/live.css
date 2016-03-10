@@ -1,5 +1,5 @@
 body {
-
+	background: white;
 }
 
 h1 {
@@ -23,6 +23,20 @@ header h1 {
 	font-weight: bold;
 }
 
+.main a {
+	color: rgba(0, 80, 200, 0.75);
+}
+
+.main a:hover {
+	color: rgba(0, 80, 200, 1);
+}
+
+.main a, a:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
 .main > div {
 	padding: 20px;
 }
@@ -33,24 +47,78 @@ header h1 {
 	font-weight: bold;
 }
 
+.main div h2 {
+	font-size: 1.25em;
+}
+
 .main div h3, .main div p {
 	font-size: 1em;
+}
+
+#feed .content, #resources .content {
+	width: 80%;
+	margin: auto;
+}
+
+#spirit {
+	overflow: hidden;
+}
+
+#spirit .results {
+	overflow: scroll;
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#feed, #stream {
+	height: 400px;
+}
+
+#spirit .results div {
+	width: 200px;
+	max-width: 100%;
+	background: rgba(5, 30, 150, 0.6);
+	margin: 10px;
+	padding: 15px;
+	color: white;
+}
+
+#spirit .results div:hover {
+	background: rgba(5, 30, 150, 0.7);
+	cursor: pointer;
+}
+
+#spirit .results div.voted {
+	background: rgba(5, 30, 150, 1);
+}
+
+#spirit .results div, #spirit .results div:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#stream div {
+	text-align: center;
 }
 
 #schedule ul {
 	list-style-type: none;
 }
 
-#schedule div {
+#schedule .content {
+	max-width: 60%;
+	margin: auto;
+}
+
+#schedule .event div {
 	margin: 0;
 	padding: 2px;
 }
 
 #schedule .event {
 	margin: 10px;
-}
-
-#schedule .event .title {
 }
 
 #schedule .event .time {
