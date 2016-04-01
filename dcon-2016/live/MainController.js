@@ -13,7 +13,7 @@ app.controller('MainController', function($scope, $firebaseArray) {
 
 	$scope.loadPoll = function() {
 		$scope.$apply(function() {
-			$scope.poll.sort(function(a, b) { return b.votes - a.votes});
+			$scope.poll.sort(function(a, b) { return parseInt(b.votes) - parseInt(a.votes)});
 		})
 		$("#spirit .results div").css("width", "200px");
 		var totalVotes = 0;

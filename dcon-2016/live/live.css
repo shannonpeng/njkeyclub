@@ -60,13 +60,17 @@ header h1 {
 	margin: auto;
 }
 
+#feed {
+	overflow: hidden;
+}
+
 #spirit {
 	overflow: hidden;
 }
 
 #spirit .results {
 	overflow: scroll;
-	width: 80%;
+	max-width: 80%;
 	margin: auto;
 	margin-top: 30px;
 }
@@ -133,4 +137,10 @@ header h1 {
 #schedule .event.active {
 	font-weight: bold;
 	font-size: 1.2em;
+}
+
+@media screen and (max-width: 900px) {
+	#schedule .content, #spirit .results {
+		max-width: 100%;
+	}
 }

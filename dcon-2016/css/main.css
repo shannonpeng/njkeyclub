@@ -47,7 +47,7 @@ nav {
 	padding: 10px;
 	position: absolute;
 	top: 0;
-	z-index: 100;
+	z-index: 9999999999999999999999;
 }
 
 nav ul {
