@@ -4,40 +4,26 @@ title: Luke McGeown
 author: luke
 ---
 
-It is with great pleasure to announce that I, Luke McGeown, a current sophomore at BridgewaterRaritan
-Regional High School, will be serving as your Lieutenant Governor for Division 12 during the
-2015-2016 service year.
+Hello Kiwanis Family,
 
-Although this is only my first year as a member of Key Club, I have already experienced much of what
-this organization has to offer. The very nature of how I became a member speaks volumes about the
-Key Club community. After speaking many of my close friends about what Key Club really was, often
-beginning with facetious remarks about how they learned to cast metal keys, I came to understand not
-only the virtuous goals of Key Club as a whole, but also the openness and kindness of the people who
-serve. Attending the divisional and district Eliminathon as well as multiple fundraising events at my
-home club showed me how special this organization truly is.
+My name is Luke McGeown, and I am humbled and honored to be serving as district governor for the 2016-2017 Service Year.
 
-This may be my first year as a member of Key Club, but I am no stranger to the power of serving one’s
-community. As a member of North Branch Reformed Church, I have dedicated countless hours over
-the years to volunteering in many ways. I have also dedicated much of my time to volunteering in
-many events within the Bridgewater-Raritan Regional School District, including tutoring students at
-Milltown Elementary School. Key Club exemplifies how successful service programs can be, which
-was already quite appealing to me by the time I considered joining.
+I have always been driven to do everything in my capacity to make this world a better place. Discovering the Kiwanis Family in high school brought this passion to a new level. I never imagined that I would ever find over twelve thousand high schoolers so willing to serve their homes, schools, and communities. Over these past few years, I have seen our family accomplish feats I never could have imagined. As time goes on, we will continue to only improve upon our successes in the past to create even greater success in the future.
 
-Aside from Key Club, I am also a member of the Future Business Leaders of America, the Forensics
-Speech and Debate team, and the Boys Junior Varsity Volleyball Team at BRHS. I am also currently
-in the process of seeking acceptance into my school’s German Honors Society. Outside of school I
-continue to volunteer through church and school in many ways.
+Aside from Key Club, I continue to stay involved with my local church.  Additionally, I serve as my school’s
+German Honor Society president, webmaster for our Forensic Speech and Debate team, and president and founder of our school’s Junior State of America. I am also a member of our school’s track and field team for throwing, Future Business Leaders of America, Math Honor Society, and mentor for the New Comers Club.
 
-This year you can expect many changes to occur in this division. With Key Club as my top priority, I
-know I can bring a lot to improving the effectiveness of our district as a whole by:
+Through serving as district governor this year, I can continue to exercise my passion of helping better the community. Through my experience as lieutenant governor, I fully understand the workings of the district board and know where and how we can improve upon our effectiveness as a district:
 
-- Chartering an Aktion Club and a Key Club
-- Encouraging strong communications between the clubs of Division 12
-- Having 100% dues paid by November 1st
-- Having 100% officers trained by the end of summer vacation
-- Hosting at least two divisional events
-- Improve general member meeting attendance and activity
+* By bolstering involvement with sponsoring Kiwanis clubs and local Circle K clubs
+* By prioritizing youth involvement through Builders Club and K-Kids
+* By streamlining the system of report forms and district board accessibility
+* By working to further engage clubs with service partners and the district project
+* By increasing number of service project opportunities
+* By better equipping club officers through training conferences
 
-I guarantee that I will go above and beyond in all of my obligations and ensure that we can all work
-together to serve our community. I am looking forward to helping make the 2015-2016 service year
-the best it can possibly be.
+With what time I have already spent with this service year’s district board, I see our passion for service and potential for success. We will, as the New Jersey District always has, continue to make the world a better place, continue to help those who need it most, and continue to teach the young adults of our state the wonder and power of service.
+
+Yours in caring and service,
+
+Luke McGeown

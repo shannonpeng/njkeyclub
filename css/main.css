@@ -54,6 +54,13 @@ html {
     font-size: 62.5%;
 }
 
+#index {
+    background-image: url('/img/slider/home.png');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
 body {
     background-image: url('/img/global/bokeh.jpg');
     background-attachment: fixed;

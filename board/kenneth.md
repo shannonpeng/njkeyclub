@@ -1,24 +1,32 @@
 ---
 layout: member
-title: Kenneth Ye
+title: Kenny Pritchard
 author: kenneth
 ---
 
-My name is Kenneth Ye, and I am honored to have the opportunity to identify myself as Lieutenant Governor for Division 2 and to serve under the 2015-2016 service year district board. I hope that I am able to serve you all in a way that will help our division to grow above and beyond! Currently, I am a junior at Egg Harbor Township High School, and I just finished my term as Club President for the 2014- 2015 service year. This will be my last full service year in Key Club, and I have high expectations to leave my own legacy in this club by helping each and every one of you grow in our division. Key Club truly is my passion, and my high school career would not be the same without everything that this club and organization has done for me.
+I am Kenny Pritchard, a junior at Bridgewater-Raritan High School, and it brings me immense pride to say that I will be serving as Lieutenant Governor of Division 12 for the 2016-2017 service year.
 
-Along with Key Club, I am also a member of the Future Business Leaders of America, Class of 2016 Council, and National Honor Society. In the summer, I volunteer for my local hospitals as well, so service really is a huge part in my life. Outside of school, I really like to travel to different cities and states and just exploring life. There are endless possibilities in this world, and it is exciting to just see things in a different perspective.
+Before Key Club I had not been involved with any extracurricular activities at all, so my sophomore year saw my growth as an active member of my school in addition to my growth as a member of Key Club. In fact, Key Club also introduced me to my first experiences with serving the community. I enjoyed attending the mini service projects that my officers set up at each meeting and signing up for events at my elementary school, Adamsville. Returning to Adamsville as a high schooler was (and still is) a wonderful experience because I have the privilege of being a part of the group that makes events fun and enjoyable for the children that participate. It is very rewarding to return to the events I once went to as an elementary schooler to return the favor and reconnect with my old teachers.
 
-When I first began high school, I joined Key Club because I wanted to be involved in as many extracurricular activities as I could, and Key Club had a cool name to it. However, I never knew that this club would quickly mean so much to me. When I first joined Key Club, I had the mindset that I was going to be a general member for my whole high school career, however, it was not until one my close friends encouraged me to pursue a Committee Chair position in my home club that really jumpstarted my journey in this organization. I became a Committee Chair member for the Major Emphasis/Advocacy Committee in the 2013-2014 service year and then moved onto being Club President the following service year. By being Club President, I can say that I honestly learned so much running such a large club, and I really am excited to work with everyone in our division.
+Towards the end of my sophomore year, I decided that I wanted to become more involved with the behind-the-scenes of Key Club. I signed up to run for editor, but, due to a combination of anxiousness and fear of the responsibility, decided to back out on the day of the election (a very regrettable decision in retrospect). Despite this initial blunder, I came back early in this school year and ran for editor again when the position opened up. I was selected for the position this time around. It came with great relief that becoming more involved exceeded my expectations in the best way possible. I met and became more acquainted with the officers, who all turned out to truly care about serving the community. Almost as soon as I became an editor I decided to run for Lieutenant Governor with the encouragement of the current NJ Key Club Governor, Luke. This brings me to the current excitement of being your new LTG.
 
-As Lieutenant Governor, I am bursting with excitement to work with everyone and have our division be the best that it can be! Here are some goals for this service year:
+As I said before, Key Club was the beginning of my extracurricular involvements. I have now also been a part of several clubs including the Latin Honor Society, in which I am a Junior Consul, the Future Business Leaders of America, the Math Honor Society, the Math League, and the Cakes for a Cause Club, in which we held a bake sale each month to fundraise for different kinds of cancer research. Though I enjoy participating and am proud to be a member of each of these clubs, I consider my involvement with Key Club my highest priority and most significant responsibility.
 
-- To train 100% of the officers
-- Make sure that all clubs pay dues on time.
-- Help clubs create strong, lasting relationships with each other
-- Encourage interclub projects
-- Increase our divisional District Convention attendance
-- Hold at least 2 divisional projects and 1 interdivisional project
-- Maintain club communication through necessary means of communication
-- Become a Robert F. Lucas Lieutenant Governor
+As such, I aspire to accomplish several goals before my service year is over. Although a person cannot always accomplish all of their goals realistically, it is important to at least attempt them because progress is better than abandonment. Here are some of my goals:
 
-Although I may be your Lieutenant Governor, do not be afraid to contact me! I am a really easygoing kind of person, and I would much rather be considered to be your friend than an annoying officer. If you just need a friend or anyone to talk to, just contact me! I foresee great things in our division, and I cannot wait to work with everyone this service year! You can contact me through any means of social media, phone calls, text messages, etc. I cannot wait to meet everyone, and if you have any questions, I am only as close as a text message away!
+* Perform all of my responsibilities in a timely manner
+* Train 100% of officers, most or all before summer
+* Visit clubs during their meetings
+* Hold divisional events
+* Collect CMRFs and dues
+* Hold co-divisional events with the Lieutenant Governors of neighboring divisions
+* Drastically increase Division 12’s attendance at DCON next year
+* Charter new clubs, especially geared towards the younger kids (K-Kids, Builder’s Club) in order to create a stronger base for membership when those kids reach high school age
+* Remain an open and communicative tool for all officers
+* Earn the Robert F. Lucas Distinguished Lieutenant Governor award
+
+If anyone ever has any questions or concerns at all, please contact me with the information at the top of the page. I am happy to help.
+
+Yours in caring and service, 
+
+Kenny Pritchard

@@ -3,8 +3,7 @@ layout: default
 title: Board
 class: board
 ---
-
-    <h1 class="title">New Jersey District Board 2015-2016</h1>
+<h1 class="title">New Jersey District Board 2016-2017</h1>
     <br>
 
     <h2>Executive Members</h2>
@@ -26,7 +25,7 @@ class: board
 
     <ul>
         {% for person in site.data.board %}
-            {% if person[1].executive == null %}
+            {% if person[1].executive == false %}
                 <li>
                     <a href="./{{ person[0] }}.html"><img src="{{ person[1].image }}" alt="Picture of {{ person[1].display_name }}"></a>
                     <p class="name"><a href="./{{ person[0] }}.html">{{ person[1].display_name }}</a></p>
@@ -40,7 +39,6 @@ class: board
     <h2>Past Boards</h2>
 
     <p>
+        <a href="2015-2016">2015-2016 District Board</a><br>
         <a href="2014-2015">2014-2015 District Board</a>
     </p>
-
-

@@ -4,46 +4,32 @@ title: Ciara Clarkin
 author: ciara
 ---
 
-I have the pleasure of introducing myself as the new Lieutenant Governor of Division 22 for the new service
-year of 2015-2016. My name is Ciara Clarkin and I am a freshman from Vernon Township High School. Before High
-School I was a part of other Kiwanis families like K-kids and Builders Club. However, for years I had been hearing
-from my brothers about the different fundraisers and service projects they helped in. It came with no surprise that my
-brother Ryan then proceeded to become Lieutenant Governor and then Governor of New Jersey. This opened up all
-new aspirations within me. My brother came home talking about the good he was doing in the world and how much fun
-he was having helping those that could not help themselves. How could I not join Key Club after that? When I finally
-attended a Key Club activity in High School I knew exactly what I wanted to do. The feeling you get when you help
-someone else is unparalleled in regular everyday life. The smiles I got when giving Christmas gifts to children, who
-wouldn’t receive any, cemented my decision. I had already attended District Convention the year before, but the magic
-that was that March weekend was nothing compared to the actual volunteering. I had the power to make others
-happy with just a few hours of service. That very fact resonates with me and as key clubbers, the power to help another resonates within you too. Whether you are a general member or an officer, we all have that power to make a positive change in somebody’s life. That power is the reason why I ran for Lieutenant Governor and will continue to dedicate myself to the New Jersey District of Key Club International. This next year I hope to work with all of you personally to make Division 22, as well as the rest of New Jersey, reach their full potential in serving our communities.
+Hello New Jersey District of Key Club International,
 
-However I am not just a name and a position. When not participating in Key Club I am involved in Model
-UN as well as Mock Trial. My favorite hobby is, and probably forever will be, reading. When I’m not studying or
-doing homework for one of my classes, I am most definitely delved into a book. I might actually be a bit too obsessed
-with reading than what is considered “healthy”. When I’m stressed or just need to think I’m listening to various
-different genres of music. Within the realm of school, I take the highest courses possible, leaving long nights of
-studying.
 
-The job of a Lieutenant Governor is a difficult one and includes a lot of responsibility. I find myself to be
-completely dedicated to Key Club and more than ready to take a larger role in serving our community. I may not be as old as many Lieutenant Governors but I believe in this volunteer organization and what it does that my age does not
-stand in my way. I will serve our division with 120% focus so we could become the absolute best we could be. With
-your help I want to touch more people with the power of service and as Lieutenant Governor I know I can accomplish
-this. I hope to work with you all personally in completing my goals for this new service year. Some of my goals
-include:
+I hope you are having a wonderful day so far! My name is Ciara Clarkin and for the next year I will be serving you as your 2016-2017 District Treasurer. I am originally from the mountains of Division 22, the home of the northernmost club that also doubles as my home club, Vernon Township High School.
 
-- To make sure all dues are paid by the Early Bird Deadline
-- Send all paperwork as soon as possible to Key Club International
-- Increase Division 22 attendance rates for district functions
-- Increase the general member count
-- Build a club
-- Keep in close contact with all officers (at least twice a week communication)
-- Hold more than one divisional event
-- Get all club officers trained before the start of the school year
-- Visit each club by the start of the school year
-- Encourage clubs from around the division to work together
+This year is my second in the splendiferous organization that is Key Club. Previously I have served as a general member and a Lieutenant Governor. I first began Key Club my freshman year, a very confusing time for anyone. I had an older friend in Key Club and instead of reading a book like I was all weekend, they were getting involved in their community. They were touching people’s lives, and I wanted to help people be happy like they were. Being the weird, nerdy child I was, I was pretty socially awkward and knowing what I did about Key Club, I hoped it would bring me out of my shell. As I write this letter as District Treasurer, I am very happy to say that my plan worked.
 
-My excitement for this new service year cannot be described in words. I can’t wait to start working with you
-all. Know that you can contact me at any time, with any suggestions or concerns, as I am your liaison to the District
-board. You can call, text, email, or send me a message on Facebook and I’ll be sure to get back to as soon as possible
-with a response. Your opinions and views are what help strengthen the division so do not feel shy in coming to me
-for anything. Division 22 is capable of greatness and together we can reach new heights.
+At this point in my high school career, key club comes as readily as breathing. Key Club is my life, I come home I do Key Club work, I wake up in the middle of the night and do Key Club work, it is pretty consistent. For me Key club and High School go hand in hand, Being District Treasurer only allows myself to become even more involved in serving New Jersey and making more people around the world happy every day.
+
+However, despite my continuous dedication to the K-Family, I am involved in other extracurricular activities. I am an active participant in Model UN, which I enjoy tremendously when we go to the competition in Jersey City. Between my involvement in Key Club and Model UN I can be found doing homework, reading books, and talking over skype.
+
+My goals as District Treasurer, can be most easily described by the acronoym BARC.
+
+* B represents my goal to build better communication between the club and district levels
+
+* A stands for the augment or increase in the raising of dues
+
+* R is for the raising of district event attendance
+
+* C represents my goal to collect 100% dues by December 1st
+
+Again, I am incredibly honored to serve as District Treasurer for New Jersey Key Club. Feel free to contact me anytime with questions or concerns about dues, events and just about anything Key Club. I look forward to seeing you all at Regional Training Conferences!
+
+Yours in Caring and Service,
+
+Ciara Leonor P. Clarkin
+
+District Treasurer
+
